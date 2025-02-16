@@ -29,10 +29,17 @@
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
-		<Criteria id="classic-civ-no-unlocks">
+		<Criteria id="no-unlocks">
 			<ConfigurationValueMatches>
 				<Group>Game</Group>
 				<ConfigurationId>ClassicCivSinglePath</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="no-transition-change">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>ClassicCivNoTransition</ConfigurationId>
 				<Value>1</Value>
 			</ConfigurationValueMatches>
 		</Criteria>
@@ -103,14 +110,21 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="classic-civ-no-unlocks" scope="game" criteria="classic-civ-no-unlocks">
+		<ActionGroup id="classic-civ-no-unlocks" scope="game" criteria="no-unlocks">
 			<Properties>
 				<LoadOrder>1000</LoadOrder>
 			</Properties>
 			<Actions>
 				<UpdateDatabase>
-					<Item>base/no-unlock-game.sql</Item>
+					<Item>base-standard/no-unlock-game.sql</Item>
 				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="classic-civ-no-transition-change" scope="game" criteria="no-transition-change">
+			<Actions>
+				<ImportFiles>
+					<Item>base-standard/scripts/age-transition-post-load.js</Item>
+				</ImportFiles>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-classic-civ" scope="shell" criteria="always">

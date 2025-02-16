@@ -3,7 +3,9 @@
 	<Parameters>
 		<!-- Fixed upgrade path (no unlocking into another civ) - set DefaultValue = 1 to enable / 0 to disable -->
 		<Row ParameterID="ClassicCivSinglePath" DefaultValue="1" Name="LOC_CIV_CLASSIC_SINGLE_PATH_NAME" Domain="bool" Hash="0" ConfigurationGroup="Game" ConfigurationKey="ClassicCivSinglePath" GroupId="AdvancedOptions" Hidden="0" SortIndex="2000"/>
+		<!-- !!! NOT WORKING !!! - No changes on transition (keep armies, cities, etc...) - set DefaultValue = 1 to enable / 0 to disable -->
+		<Row ParameterID="ClassicCivNoTransition" DefaultValue="1" Name="LOC_CIV_CLASSIC_NO_TRANSITION_NAME" Domain="bool" Hash="0" ConfigurationGroup="Game" ConfigurationKey="ClassicCivNoTransition" GroupId="AdvancedOptions" Hidden="0" SortIndex="2000"/>
 		<!-- Default (and Max) number of Players on larger maps -->
-		<Row ParameterID="NumPlayerOnLargerMap" DefaultValue="20" Name="LOC_CIV_CLASSIC_NUM_PLAYER_LARGE_MAPS_NAME" Domain="uint" Hash="0" ConfigurationGroup="Game" ConfigurationKey="NumPlayerOnLargerMap" GroupId="AdvancedOptions" Hidden="0" SortIndex="2000"/>
+		<Row ParameterID="NumPlayerOnLargerMap" DefaultValue="8" Name="LOC_CIV_CLASSIC_NUM_PLAYER_LARGE_MAPS_NAME" Domain="uint" Hash="0" ConfigurationGroup="Game" ConfigurationKey="NumPlayerOnLargerMap" GroupId="AdvancedOptions" Hidden="0" SortIndex="2000"/>
 	</Parameters>
 </Database>

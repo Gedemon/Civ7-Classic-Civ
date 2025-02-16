@@ -11,6 +11,9 @@ var g_numMajorPlayers = 0;
 //var g_outgoingAge: number = 0;
 var g_incomingAge = 0;
 function requestInitializationParameters(initParams) {
+    // Gedemon <<<<
+    console.log("Classic Civ - Light Transition");
+....// Gedemon >>>>
     console.log("Getting Age Transition Parameters");
     console.log("Players: ", initParams.numMajorPlayers);
     console.log("Old Age: ", initParams.outgoingAge);
@@ -38,19 +41,25 @@ function generateTransition() {
     generateDiscoveries(iWidth, iHeight, []);
     // Update units for each player
     for (let iPlayer = 0; iPlayer < g_numMajorPlayers; iPlayer++) {
-        updatePlayerUnits(iPlayer);
-        capGold(iPlayer);
-        capInfluence(iPlayer);
-        let regressedCities = regressCitiesToTowns(iPlayer);
-        normalizeRelationships(iPlayer);
-        positionArmyCommanders(iPlayer);
-        positionFleetCommanders(iPlayer);
-        changeCapitalCards(iPlayer);
-        generateDarkAgeCards(iPlayer);
-        generateDynamicVictoryCards(iPlayer);
-        generateRetainCityCards(iPlayer, regressedCities);
-        Players.AdvancedStart.get(iPlayer)?.dynamicCardsAddedComplete();
+        // Gedemon <<<<<
+        // no changes
+        //updatePlayerUnits(iPlayer);
+        //capGold(iPlayer);
+        //capInfluence(iPlayer);
+        //let regressedCities = regressCitiesToTowns(iPlayer);
+        //normalizeRelationships(iPlayer);
+        //positionArmyCommanders(iPlayer);
+        //positionFleetCommanders(iPlayer);
+        //changeCapitalCards(iPlayer);
+        //generateDarkAgeCards(iPlayer);
+        //generateDynamicVictoryCards(iPlayer);
+        //generateRetainCityCards(iPlayer, regressedCities);
+        //Players.AdvancedStart.get(iPlayer)?.dynamicCardsAddedComplete();
+        // Gedemon >>>>>
     }
+    // Gedemon <<<<
+    console.log("Classic Civ - Light Transition - END");
+....// Gedemon >>>>
 }
 function removeObsoleteResources(iRemovedResourcePlots) {
     console.log("Removing old resources");
@@ -923,11 +932,3 @@ engine.on('GenerateAgeTransition', generateTransition);
 console.log("Loaded age-transition-post-load.ts");
 
 //# sourceMappingURL=file:///base-standard/scripts/age-transition-post-load.js.map
-
-const yourModInitFunction = () => {
-    setInterval(() => {
-        console.error("<----<<  TEST AGE TRANSISTION  >>---->");
-    }, 2000);
-}
-// Add your function to the engine's ready event
-engine.whenReady.then(yourModInitFunction);

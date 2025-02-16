@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MAP_CLASSIC_CIV_NAME">
+			<Text>CLASSIC CIV</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP">
+			<Text>Classic Civ progression.</Text>
+		</Row>
+	</EnglishText>
+</Database>

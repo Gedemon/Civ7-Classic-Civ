@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--				Advanced Starts						-->
+	<!-- ==================================================	-->
+	<Modifier id="TRAIT_MOD_ADVANCED_START_FREE_ARMY" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_ADVANCED_START_ADD_ARMY" permanent="true" run-once="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_IS_AGE_COUNT">
+				<Argument name="AgeCount">1</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_CARD_EFFECTS_COMPLETE"/>
+		</OwnerRequirements>
+		<Argument name="ArmyID">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_ADVANCED_START_MEET_PLAYERS" collection="COLLECTION_OWNER" effect="EFFECT_ADVANCED_START_MEET_PLAYERS" permanent="true" run-once="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_IS_AGE_COUNT">
+				<Argument name="AgeCount">1</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_CARD_EFFECTS_COMPLETE"/>
+		</OwnerRequirements>
+		<Argument name="HomelandsOnly">false</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_ADVANCED_START_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" permanent="true" run-once="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_IS_AGE_COUNT">
+				<Argument name="AgeCount">1</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="Amount">2000</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Scale">true</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_ADVANCED_START_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" permanent="true" run-once="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_IS_AGE_COUNT">
+				<Argument name="AgeCount">1</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="Amount">120</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Scale">true</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_ADVANCED_START_ATTRIBUTES" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" permanent="true" run-once="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_IS_AGE_COUNT">
+				<Argument name="AgeCount">1</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="AttributeType">ATTRIBUTE_WILDCARD</Argument>
+		<Argument name="Amount">6</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_DEFAULT_YIELD_15" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD" permanent="true">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">15</Argument>
+		<Argument name="Tooltip">LOC_DEFAULT_YIELD</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_DEFAULT_YIELD_30" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD" permanent="true">
+		<Argument name="YieldType">YIELD_SCIENCE,YIELD_CULTURE,YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">30</Argument>
+		<Argument name="Tooltip">LOC_DEFAULT_YIELD</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_ADVANCED_START_DEFAULT_YIELD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD" permanent="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_IS_AGE_COUNT">
+				<Argument name="AgeCount">1</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE,YIELD_CULTURE</Argument>
+		<Argument name="Amount">100</Argument>
+		<Argument name="Tooltip">LOC_ADVANCED_START_DEFAULT_YIELD</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_NEGATIVE_INFLUENCE_CONQUERED_SETTLEMENTS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_CONQUERED_CITY">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-6</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_MOD_NEGATIVE_INFLUENCE_CONQUERED_SETTLEMENTS</Argument>
+	</Modifier>
+	<Modifier id="DIPLOMACY_MOD_UNLOCK_COUNTER_SPY" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_COUNTER_SPY</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_IDEOLOGIES_AGENDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_AGENDA_TIMED_UPDATE">
+		<String context="Name">LOC_DIPLOMACY_AGENDA_IDEOLOGIES_NAME</String>
+		<Argument name="ModName">LOC_DIPLOMACY_AGENDA_IDEOLOGIES_NAME</Argument>
+		<Argument name="Tooltip">LOC_DIPLOMACY_AGENDA_IDEOLOGIES_DESC</Argument>
+		<Argument name="WeightType">DIPLOMACY_AGENDA_COMPARE_IDEOLOGIES</Argument>
+		<Argument name="FirstMeetDelay">1</Argument>
+		<Argument name="UpdateFreq">3</Argument>
+		<Argument name="AwardTo1">DIPLOMACY_AGENDA_AWARD_ALL</Argument>
+		<Argument name="AwardTo2">DIPLOMACY_AGENDA_AWARD_ALL</Argument>
+		<Argument name="AwardAmtType1">DIPLOMACY_AGENDA_AMT_CUSTOM</Argument>
+		<Argument name="AwardAmt1">9</Argument>
+		<Argument name="AwardAmtType2">DIPLOMACY_AGENDA_AMT_CUSTOM</Argument>
+		<Argument name="AwardAmt2">-9</Argument>
+		<Argument name="ShowNotification">false</Argument>
+		<Argument name="ApplyToPlayers">true</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--				Generic Modifiers					-->
+	<!-- ==================================================	-->
+	<Modifier id="TRAIT_MOD_MODERN_CIV_DIPLOMACY_TOKENS" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_DIPLOMATIC_ENVOYS">
+		<Argument name="Amount">3</Argument>
+		<Argument name="Tooltip">LOC_TERM_AGE</Argument>
+	</Modifier>
+	<Modifier id="MOD_MODERN_OCEAN_TRAVEL" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_VALID_TERRAIN">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="TerrainType">TERRAIN_OCEAN</Argument>
+		<Argument name="Valid">true</Argument>
+	</Modifier>
+	<Modifier id="MOD_MODERN_EMBARKATION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_EMBARKATION_TYPE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="EmbarkationType">UNIT_EMBARKATION_DEEP_WATER</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_DEPARTMENT_STORE_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_DEPARTMENT_STORE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_PORT_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_PORT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_FACTORY_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_FACTORY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_CAPITAL_RESOURCE_CAP" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_CITY_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_INITIAL_SETTLEMENT_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" run-once="true" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_GAME_IS_STARTED"/>
+		</SubjectRequirements>
+		<Argument name="Amount">16</Argument>
+		<Argument name="Minimum">true</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_TREASURE_CONSTRUCTIBLE_PREREQ" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TREASURE_PREREQ">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_FACTORY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ConstructiblePrereq">true</Argument>
+		<Argument name="Enable">true</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_GOLD_UNASSIGNED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Unassigned">true</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_HAPPINESS_UNASSIGNED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Unassigned">true</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_FACTORY_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_RESOURCE">
+				<Argument name="ResourceClassType">RESOURCECLASS_FACTORY</Argument>
+				<Argument name="All">false</Argument>
+				<Argument name="Produced">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_FACTORY</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--				Civ-Specific Traits					-->
+	<!-- ==================================================	-->
+	<!-- AMERICA -->
+	<Modifier id="TRAIT_MOD_FRONTIER_EXPANSION_GOLD_ON_IMPROVED_RESOURCES" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_YIELD_FOR_RESOURCE">
+		<Argument name="Amount">100</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+	</Modifier>
+	<!-- BUGANDA -->
+	<Modifier id="TRAIT_MOD_AMPHIBIOUS_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_AMPHIBIOUS</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_RIVER_RAIDS_PILLAGING_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_RIVER_RAIDS</Argument>
+	</Modifier>
+	<!-- FRENCH EMPIRE -->
+	<Modifier id="TRAIT_MOD_LIBERTE_GOVERNMENT_CHANGE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_GOLDEN_AGE_CHOICE">
+		<Argument name="GoldenAgeType">GOLDEN_AGE_AUTHORITARIANISM_1,GOLDEN_AGE_AUTHORITARIANISM_2,GOLDEN_AGE_BUREAUCRATIC_MONARCHY_1,GOLDEN_AGE_BUREAUCRATIC_MONARCHY_2,GOLDEN_AGE_ELECTIVE_REPUBLIC_1,GOLDEN_AGE_ELECTIVE_REPUBLIC_2</Argument>
+	</Modifier>
+	<!-- MEIJI -->
+	<Modifier id="TRAIT_MOD_GOISSHIN_SCIENCE_ON_OVERBUILD" collection="COLLECTION_PLAYER_CITIES" effect="TRIGGER_CITY_GRANT_YIELD_ON_CONSTRUCTIBLE_CREATED">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Percent">30</Argument>
+		<Argument name="Overbuilt">true</Argument>
+	</Modifier>
+	<Modifier id="MOD_JUKOGYO_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_JUKOGYO</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<!-- MEXICO -->
+	<Modifier id="TRAIT_MOD_REVOLUCION_GOVERNMENT_UNIQUE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_SET_GOVERNMENT">
+		<Argument name="GovernmentType">GOVERNMENT_REVOLUCION</Argument>
+	</Modifier>
+	<!-- MUGHAL -->
+	<Modifier id="TRAIT_MOD_PARADISE_OF_NATIONS_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">75</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_PARADISE_OF_NATIONS_CITY_YIELD_PENALTY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<Argument name="YieldType">YIELD_FOOD,YIELD_PRODUCTION</Argument>
+		<Argument name="Percent">-25</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_PARADISE_OF_NATIONS_YIELD_PENALTY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD">
+		<Argument name="YieldType">YIELD_CULTURE,YIELD_HAPPINESS,YIELD_SCIENCE,YIELD_DIPLOMACY</Argument>
+		<Argument name="Percent">-25</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_ZAMINDAR_POPULATION_BONUS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_POPULATION" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<!-- PRUSSIA -->
+	<Modifier id="TRAIT_MOD_BLOOD_AND_IRON_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_RELATIONSHIP_COMBAT_STRENGTH">
+		<Argument name="Amount">1</Argument>
+		<Argument name="RelationshipTypes">PLAYER_RELATIONSHIP_HOSTILE, PLAYER_RELATIONSHIP_UNFRIENDLY</Argument>
+	</Modifier>
+	<!-- QING -->
+	<Modifier id="TRAIT_MOD_SHENGSHI_GOLD_PER_IMPORTED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">4</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_QING_ABILITY_NAME</Argument>
+		<String context="Description">LOC_TRAIT_QING_ABILITY_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_SHENGSHI_CULTURE_PER_IMPORTED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_QING_ABILITY_NAME</Argument>
+		<String context="Description">LOC_TRAIT_QING_ABILITY_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_SHENGSHI_INFLUENCE_PER_IMPORTED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_QING_ABILITY_NAME</Argument>
+		<String context="Description">LOC_TRAIT_QING_ABILITY_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_SHENGSHI_SCIENCE_MALUS_PER_IMPORTED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">-1</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_QING_ABILITY_NAME</Argument>
+		<String context="Description">LOC_TRAIT_QING_ABILITY_DESCRIPTION</String>
+	</Modifier>
+	<!-- RUSSIA -->
+	<RequirementSet id="REQSET_PROSVESHCHENIE" type="REQUIREMENTSET_TEST_ANY">
+		<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+			<Argument name="DistrictClass">CITY_CENTER</Argument>
+		</Requirement>
+		<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+			<Argument name="DistrictClass">URBAN</Argument>
+		</Requirement>
+	</RequirementSet>
+	<Modifier id="TRAIT_MOD_PROSVESHCHENIE_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_MOD_PROSVESHCHENIE_CULTURE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_MOD_PROSVESHCHENIE_CULTURE" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
+				<Argument name="RequirementSetId">REQSET_PROSVESHCHENIE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_PROSVESHCHENIE_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_MOD_PROSVESHCHENIE_SCIENCE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_MOD_PROSVESHCHENIE_SCIENCE" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
+				<Argument name="RequirementSetId">REQSET_PROSVESHCHENIE</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
+				<Argument name="BiomeType">BIOME_TUNDRA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TUNDRA_OBSHCHINA_CULTURE" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
+				<Argument name="BiomeType">BIOME_TUNDRA</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">IMPROVEMENT_OBSHCHINA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<!-- SIAM -->
+	<Modifier id="TRAIT_MOD_ITSAPHARAHAB" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_BECOME_SUZERAIN</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--				Civ-Specific Trees					-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_AMERICA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_AMERICA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_AMERICA</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_BUGANDA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_BUGANDA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_BUGANDA</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_FRENCH_EMPIRE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_FRENCH_EMPIRE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_FRENCH_EMPIRE</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_MEIJI" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MEIJI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_MEIJI</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_MEXICO" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MEXICO</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_MEXICO</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_MUGHAL" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MUGHAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_MUGHAL</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_PRUSSIA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_PRUSSIA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_PRUSSIA</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_QING" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_QING</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_QING</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_RUSSIA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_RUSSIA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_RUSSIA</Argument>
+	</Modifier>
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_SIAM" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_SIAM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_SIAM</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--				Wonder Bonuses						-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_AMERICA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_AMERICA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_AMERICA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_BUGANDA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_BUGANDA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_BUGANDA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_FRENCH_EMPIRE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_FRENCH_EMPIRE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_FRENCH_EMPIRE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_MEIJI" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MEIJI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_MEIJI_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_MEXICO" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MEXICO</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_MEXICO_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_MUGHAL" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MUGHAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_MUGHAL_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_PRUSSIA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_PRUSSIA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_PRUSSIA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_QING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_QING</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_QING_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_RUSSIA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_RUSSIA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_RUSSIA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_SIAM" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_SIAM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_SIAM_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civilization Names-->
+		<Row Tag="LOC_CIVILIZATION_CITY_STATE_NAME">
+			<Text>City-State</Text>
+		</Row>
+		<!--Civilization Full Names-->
+		<Row Tag="LOC_CIVILIZATION_CITY_STATE_FULLNAME">
+			<Text>Placeholder City-State</Text>
+		</Row>
+		<!--Civilization Adjectives-->
+		<Row Tag="LOC_CIVILIZATION_AMSTERDAM_ADJECTIVE">
+			<Text>City-Stater</Text>
+		</Row>
+		<!--Civilization Traits-->
+		<Row Tag="LOC_TRAIT_AKSUM_ABILITY_NAME">
+			<Text>Kingdom of Natural Wealth</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_AKSUM_DESCRIPTION">
+			<Text>+2[icon:YIELD_GOLD] Gold on Resources.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AKSUM_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+2 [icon:YIELD_GOLD] Gold [/B]on [B]Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Great Stele[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_AKSUM_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Aksum's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EGYPT_ABILITY_NAME">
+			<Text>Gifts of Osiris</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_EGYPT_DESCRIPTION">
+			<Text>+1 [icon:YIELD_PRODUCTION] Production on Navigable Rivers.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EGYPT_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+1 [icon:YIELD_PRODUCTION] Production [/B]on [B]Navigable Rivers[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Pyramids[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_EGYPT_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Egypt's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREECE_ABILITY_NAME">
+			<Text>Demokratia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_GREECE_DESCRIPTION">
+			<Text>+3 [icon:YIELD_DIPLOMACY] Influence per turn on the Palace.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREECE_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+3 [icon:YIELD_DIPLOMACY] Influence [/B]per turn on the [B]Palace[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Oracle[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_GREECE_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Greece's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAN_ABILITY_NAME">
+			<Text>Nine Provinces</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAN_DESCRIPTION">
+			<Text>The Capital and new Towns gain an additional Population with their first growth event.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAN_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]The [B]Capital [/B]and new [B]Towns [/B]gain an additional [B]Population [/B]with their first growth event.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Weiyang Palace[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_HAN_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Han's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_KHMER_ABILITY_NAME">
+			<Text>Ksekam Chamnon</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_KHMER_DESCRIPTION">
+			<Text>Districts on Rivers do not remove the natural yield of the tile.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_KHMER_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]Districts [/B]on [B]Rivers [/B]do not remove the [B]natural yield [/B]of the tile.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Angkor Wat[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_KHMER_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Khmer's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MAURYA_ABILITY_NAME">
+			<Text>Dhamma Lipi</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MAURYA_DESCRIPTION">
+			<Text>You can choose an additional Pantheon after unlocking Mysticism.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MAURYA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]You can choose an additional [B]Pantheon [/B]after unlocking [B]Mysticism[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Sanchi Stupa[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MAURYA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Maurya's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MAYA_ABILITY_NAME">
+			<Text>Skies of Itzamna</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MAYA_DESCRIPTION">
+			<Text>The Palace gains +0.5 [icon:YIELD_SCIENCE] Science for adjacent Vegetated Terrain.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MAYA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]The [B]Palace [/B]gains [B]+0.5 [icon:YIELD_SCIENCE] Science [/B]for adjacent [B]Vegetated [/B]Terrain.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Mundo Perdido[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MAYA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Maya's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MISSISSIPPIAN_ABILITY_NAME">
+			<Text>Goose Societies</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MISSISSIPPIAN_DESCRIPTION">
+			<Text>All Buildings receive a +1 [icon:YIELD_FOOD] Food Adjacency for Resources.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MISSISSIPPIAN_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]All Buildings receive a [B]+1 [icon:YIELD_FOOD] Food Adjacency [/B]for [B]Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Monks Mound[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MISSISSIPPIAN_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Mississippian's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PERSIA_ABILITY_NAME">
+			<Text>Hamarana Council</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PERSIA_DESCRIPTION">
+			<Text>Infantry Units receive +3 Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PERSIA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]Infantry Units [/B]receive [B]+3 Combat Strength [/B]when attacking.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Gate of All Nations[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_PERSIA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Persia's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ROME_ABILITY_NAME">
+			<Text>Twelve Tables</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROME_DESCRIPTION">
+			<Text>+1 [icon:YIELD_CULTURE] Culture on Districts in the Capital and City Centers in Towns.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ROME_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]on [B]Districts [/B]in the [B]Capital [/B]and [B]City Centers [/B]in [B]Towns[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Colosseum[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ROME_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Rome's associated Wonder.</Text>
+		</Row>
+	</EnglishText>
+</Database>

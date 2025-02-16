@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Abbasid-->
+		<Row Tag="LOC_CITY_NAME_ABBASID1">
+			<Text>Baghdād</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID2">
+			<Text>al-Fustāt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID3">
+			<Text>Makkah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID4">
+			<Text>al-Mawsil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID5">
+			<Text>Ardabil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID6">
+			<Text>Hamadān</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID7">
+			<Text>Shirāz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID8">
+			<Text>Zabid</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID9">
+			<Text>Dimašq </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID10">
+			<Text>Qairwān</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID11">
+			<Text>Sāmarrā</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID12">
+			<Text>al-Ahwāz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID13">
+			<Text>Irānshahr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID14">
+			<Text>Shahrastān</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID15">
+			<Text>as-Sirajān</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID16">
+			<Text>al-Mansūra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID17">
+			<Text>al-Kūfah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID18">
+			<Text>al-Madinah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID19">
+			<Text>Rāma-hurmuz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID20">
+			<Text>al-Basrah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID21">
+			<Text>al-Rayy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID22">
+			<Text>Halab</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID23">
+			<Text>Balkh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID24">
+			<Text>Bust</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID25">
+			<Text>ar-Raqqah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID26">
+			<Text>Bardha‘a</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID27">
+			<Text>Āmol</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID28">
+			<Text>Suhār</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID29">
+			<Text>al-Ahsā</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID30">
+			<Text>Jiraft</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID31">
+			<Text>Ziranj</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID32">
+			<Text>Marw</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABBASID33">
+			<Text>Harāt</Text>
+		</Row>
+		<!--Chola-->
+		<Row Tag="LOC_CITY_NAME_CHOLA1">
+			<Text>Gangaikonda Cholapuram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA2">
+			<Text>Pazhayarai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA3">
+			<Text>Thanjavur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA4">
+			<Text>Uraiyuir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA5">
+			<Text>Nagapattinam</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA6">
+			<Text>Kanchipuram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA7">
+			<Text>Madurai </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA8">
+			<Text>Karur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA9">
+			<Text>Talakkad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA10">
+			<Text>Mahodaiyapuram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA11">
+			<Text>Kollam</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA12">
+			<Text>Kantalur-salai </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA13">
+			<Text>Talakadu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA14">
+			<Text>Vengi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA15">
+			<Text>Mahabalipuram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA16">
+			<Text>Vasavasamudram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA17">
+			<Text>Arikamedu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA18">
+			<Text>Kaveripatnam</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA19">
+			<Text>Tondi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA20">
+			<Text>Periyapattinam</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA21">
+			<Text>Rameswaram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA22">
+			<Text>Devipattinam</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA23">
+			<Text>Alagankulam</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA24">
+			<Text>Korkal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA25">
+			<Text>Anuradhapura </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA26">
+			<Text>Janathamangalam </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA27">
+			<Text>Mahathittha </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA28">
+			<Text>Pulatthinagara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOLA29">
+			<Text>Matottam</Text>
+		</Row>
+		<!--Hawaii-->
+		<Row Tag="LOC_CITY_NAME_HAWAII1">
+			<Text>Lā-hainā</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII2">
+			<Text>Kou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII3">
+			<Text>Hilo </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII4">
+			<Text>Wai-luku</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII5">
+			<Text>Lihu'e</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII6">
+			<Text>‘Ewa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII7">
+			<Text>Kai-lua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII8">
+			<Text>Wai-pahū</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII9">
+			<Text>Lāna'i </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII10">
+			<Text>Ka-hului</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII11">
+			<Text>Kihei</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII12">
+			<Text>Wai-kolu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII13">
+			<Text>Ka-pa'a</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII14">
+			<Text>Pearl City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII15">
+			<Text>Kona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII16">
+			<Text>Kauna-kahakai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII17">
+			<Text>Nānākuli</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII18">
+			<Text>Wai-lua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII19">
+			<Text>Pāpa'i-kou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII20">
+			<Text>Kaha-lu'u</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII21">
+			<Text>Wai-mea</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII22">
+			<Text>Mākaha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII23">
+			<Text>Hāna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII24">
+			<Text>Wai-he'e</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII25">
+			<Text>Nā'ālehu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII26">
+			<Text>Hālawa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII27">
+			<Text>Ha'ikū</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII28">
+			<Text>Pepe’eko</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII29">
+			<Text>‘Anae-ho’omalu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAWAII30">
+			<Text>Puhi</Text>
+		</Row>
+		<!--Inca-->
+		<Row Tag="LOC_CITY_NAME_INCA1">
+			<Text>Qusqu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA2">
+			<Text>Antawaylla</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA3">
+			<Text>Wanuku</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA4">
+			<Text>Willka Waman</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA5">
+			<Text>Machu Pikchu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA6">
+			<Text>Ullantaytampu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA7">
+			<Text>Sausa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA8">
+			<Text>Kashamarka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA9">
+			<Text>Chucuito</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA10">
+			<Text>Kitu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA11">
+			<Text>Ayak’uchu </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA12">
+			<Text>Chan Chan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA13">
+			<Text>Pisac</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA14">
+			<Text>Huancabamba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA15">
+			<Text>Ayaviri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA16">
+			<Text>Vitcos </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA17">
+			<Text>Paria</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA18">
+			<Text>Chuquiabo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA19">
+			<Text>Pachakamaq</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA20">
+			<Text>Tumbez</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA21">
+			<Text>Tumipampa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA22">
+			<Text>Inka Pirka </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA23">
+			<Text>Wankawilka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA24">
+			<Text>Ica</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA25">
+			<Text>Paramonga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA26">
+			<Text>Pukatampu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA27">
+			<Text>Chiquitoy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA28">
+			<Text>Chena Pukara </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA29">
+			<Text>Hamanqay</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA30">
+			<Text>Pumpu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INCA31">
+			<Text>Pukara Aconquija</Text>
+		</Row>
+		<!--Majapahit-->
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT1">
+			<Text>Wilwakikta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT2">
+			<Text>Lumajang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT3">
+			<Text>Daha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT4">
+			<Text>Tuban</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT5">
+			<Text>Hujung Galuh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT6">
+			<Text>Pajang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT7">
+			<Text>Palembang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT8">
+			<Text>Jambi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT9">
+			<Text>Berune</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT10">
+			<Text>Tumasik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT11">
+			<Text>Kalanten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT12">
+			<Text>Samudra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT13">
+			<Text>Lamuri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT14">
+			<Text>Barus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT15">
+			<Text>Darmmacraya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT16">
+			<Text>Bedahulu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT17">
+			<Text>Lwagajah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT18">
+			<Text>Lombok Mirah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT19">
+			<Text>Gurun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT20">
+			<Text>Saksak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT21">
+			<Text>Sukdana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT22">
+			<Text>Sampit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT23">
+			<Text>Panai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT24">
+			<Text>Barus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT25">
+			<Text>Taliwang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT26">
+			<Text>Makassar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT27">
+			<Text>Maloko</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT28">
+			<Text>Ambwan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAJAPAHIT29">
+			<Text>Tanjung Kutei</Text>
+		</Row>
+		<!--Ming-->
+		<Row Tag="LOC_CITY_NAME_MING1">
+			<Text>Yingtian</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING2">
+			<Text>Beiping</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING3">
+			<Text>Fuzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING4">
+			<Text>Guangzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING5">
+			<Text>Hangzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING6">
+			<Text>Guilin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING7">
+			<Text>Guiyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING8">
+			<Text>Kaifeng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING9">
+			<Text>Hankou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING10">
+			<Text>Nanchang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING11">
+			<Text>Jinan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING12">
+			<Text>Taiyuan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING13">
+			<Text>Chengdu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING14">
+			<Text>Yunnan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING15">
+			<Text>Nanning</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING16">
+			<Text>Luzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING17">
+			<Text>Wuchang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING18">
+			<Text>Quanzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING19">
+			<Text>Changsha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING20">
+			<Text>Hangyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING21">
+			<Text>Xiangyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING22">
+			<Text>Jingzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING23">
+			<Text>Xiamen </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING24">
+			<Text>Luoyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING25">
+			<Text>Lintao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING26">
+			<Text>Xining</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING27">
+			<Text>Yinchuan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING28">
+			<Text>Qiongshan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING29">
+			<Text>Xi’an</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MING30">
+			<Text>Nuergandusi</Text>
+		</Row>
+		<!--Mongolia-->
+		<Row Tag="LOC_CITY_NAME_MONGOLIA1">
+			<Text>Qaraqorum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA2">
+			<Text>Qobdo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA3">
+			<Text>Khüree</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA4">
+			<Text>Uliastai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA5">
+			<Text>Aurag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA6">
+			<Text>Khiagt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA7">
+			<Text>Ulaangom</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA8">
+			<Text>Dulüün Boldog</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA9">
+			<Text>Khuduu Aral</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA10">
+			<Text>Sainshand</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA11">
+			<Text>Altai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA12">
+			<Text>Ayil Qaraqana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA13">
+			<Text>Khökh Nuur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA14">
+			<Text>Kherlen Bar Khot</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA15">
+			<Text>Burgi Ereg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA16">
+			<Text>Qorqonaq Jubur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA17">
+			<Text>Vangiin Khüree</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA18">
+			<Text>Dalan Nemürges</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA19">
+			<Text>Tajkal Khorga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA20">
+			<Text>Chakirmaut</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA21">
+			<Text>Qarabalghasun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA22">
+			<Text>Torqod</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA23">
+			<Text>Bürgi-ergi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA24">
+			<Text>Choir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA25">
+			<Text>Burkhan Khaldun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA26">
+			<Text>Hariltu Naur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA27">
+			<Text>Qara'un Qabcal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA28">
+			<Text>Altanbulag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA29">
+			<Text>Tsetserleg </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONGOLIA30">
+			<Text>Bayantümen</Text>
+		</Row>
+		<!--Norman-->
+		<Row Tag="LOC_CITY_NAME_NORMAN1">
+			<Text>Rouen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN2">
+			<Text>Kaem</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN3">
+			<Text>Bayeux</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN4">
+			<Text>Falaise</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN5">
+			<Text>Hastinges</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN6">
+			<Text>Fécamp</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN7">
+			<Text>Wyncestre</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN8">
+			<Text>Lundres</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN9">
+			<Text>Dovorre</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN10">
+			<Text>Gisors</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN11">
+			<Text>Everwyk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN12">
+			<Text>Chereburgh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN13">
+			<Text>Cantorbire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN14">
+			<Text>Dives</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN15">
+			<Text>Colcestre</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN16">
+			<Text>Norwiche</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN17">
+			<Text>Mortaigne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN18">
+			<Text>Diepe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN19">
+			<Text>Lincoln</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN20">
+			<Text>Evrous</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN21">
+			<Text>Boseham</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN22">
+			<Text>Melfi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN23">
+			<Text>Avraunches</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN24">
+			<Text>Nottingham</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN25">
+			<Text>Oxenford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN26">
+			<Text>Catinenze</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN27">
+			<Text>Stafford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN28">
+			<Text>Rise</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN29">
+			<Text>Alnwyk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORMAN30">
+			<Text>Cathacem</Text>
+		</Row>
+		<!--Songhai-->
+		<Row Tag="LOC_CITY_NAME_SONGHAI1">
+			<Text>Gao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI2">
+			<Text>Timbuktu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI3">
+			<Text>Jenne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI4">
+			<Text>Kukiya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI5">
+			<Text>Lulami</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI6">
+			<Text>Tendirma</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI7">
+			<Text>Kumbi Saleh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI8">
+			<Text>Tenenku</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI9">
+			<Text>Agadez</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI10">
+			<Text>Tadmekka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI11">
+			<Text>Gobir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI12">
+			<Text>Gaya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI13">
+			<Text>Katsina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI14">
+			<Text>Zaria</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI15">
+			<Text>Takedda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI16">
+			<Text>Kabara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI17">
+			<Text>Kano</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI18">
+			<Text>Walata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI19">
+			<Text>Sibiridugu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI20">
+			<Text>Oualata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI21">
+			<Text>Segu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI22">
+			<Text>Bamba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI23">
+			<Text>Teghazza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI24">
+			<Text>Yatemga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI25">
+			<Text>Dia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI26">
+			<Text>Arawan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI27">
+			<Text>Tishit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI28">
+			<Text>Ouadane</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI29">
+			<Text>Masina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SONGHAI30">
+			<Text>Bilma</Text>
+		</Row>
+		<!--Spain-->
+		<Row Tag="LOC_CITY_NAME_SPAIN1">
+			<Text>Madrid</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN2">
+			<Text>Sevilla</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN3">
+			<Text>Barcelona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN4">
+			<Text>Toledo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN5">
+			<Text>Córdoba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN6">
+			<Text>Valencia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN7">
+			<Text>Zaragoza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN8">
+			<Text>Valladolid</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN9">
+			<Text>Bilbao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN10">
+			<Text>A Coruña</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN11">
+			<Text>Cartagena</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN12">
+			<Text>Cádiz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN13">
+			<Text>Salamanca</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN14">
+			<Text>Las Palmas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN15">
+			<Text>Murcia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN16">
+			<Text>Pamplona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN17">
+			<Text>Vigo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN18">
+			<Text>Oran</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN19">
+			<Text>Vitoria-Gasteiz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN20">
+			<Text>Oviedo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN21">
+			<Text>Málaga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN22">
+			<Text>Havana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN23">
+			<Text>Jaen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN24">
+			<Text>Manila</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN25">
+			<Text>Santander</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN26">
+			<Text>Almeria</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN27">
+			<Text>Alicante</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN28">
+			<Text>Badalona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN29">
+			<Text>Burgos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPAIN30">
+			<Text>Gijón</Text>
+		</Row>
+	</EnglishText>
+</Database>

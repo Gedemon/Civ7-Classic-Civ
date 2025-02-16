@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--	Generic Modifiers							-->
+	<!-- ==================================================	-->
+	<!-- ->
+	<Modifier id="MOD_DEFAULT_CIV_RIVER_EMBARKATION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_EMBARKATION_TYPE" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="EmbarkationType">UNIT_EMBARKATION_INLAND_WATER</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_CAPITAL_FREE_FOOD" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_POPULATION" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS">
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_GAME_TURN_ATLEAST">
+				<Argument name="MinGameTurn">3</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_CAPITAL_RESOURCE_CAP" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_CITY_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_MARKET_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_MARKET</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_LIGHTHOUSE_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_LIGHTHOUSE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_INITIAL_SETTLEMENT_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP">
+		<Argument name="Amount">3</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_CHIEFDOM_UNLOCKS_GOVERNMENT" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_BLOCK_GOVERNMENT_SELECTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE" inverse="true">
+				<Argument name="ProgressionTreeNodeType">NODE_CIVIC_AQ_MAIN_CHIEFDOM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_DEFAULT_YIELD_5" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD" permanent="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS">
+				<Argument name="RequiredCount">1</Argument>
+				<Argument name="CountPerOwnSettlement">1</Argument>
+				<Argument name="CountPerConqueredSettlement">1</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">5</Argument>
+		<Argument name="Tooltip">LOC_DEFAULT_YIELD</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_DEFAULT_YIELD_10" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD" permanent="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS">
+				<Argument name="RequiredCount">1</Argument>
+				<Argument name="CountPerOwnSettlement">1</Argument>
+				<Argument name="CountPerConqueredSettlement">1</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE,YIELD_CULTURE,YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">10</Argument>
+		<Argument name="Tooltip">LOC_DEFAULT_YIELD</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_NEGATIVE_INFLUENCE_CONQUERED_SETTLEMENTS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_CONQUERED_CITY">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-2</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_MOD_NEGATIVE_INFLUENCE_CONQUERED_SETTLEMENTS</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_GOLD_UNASSIGNED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Unassigned">true</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_HAPPINESS_UNASSIGNED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Unassigned">true</Argument>
+	</Modifier>
+	<!-- -->
+	<!-- ==================================================	-->
+	<!--	Civ-Specific Traits							-->
+	<!-- ==================================================	-->
+	<!-- AKSUM -->
+	<Modifier id="TRAIT_MOD_KINGDOM_OF_NATURAL_WEALTH_RESOURCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">AksumKingdomOfNaturalWealthResourceGold</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_AKSUM_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TANKWA_TRADE_ROUTE_RANGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">10</Argument>
+		<Argument name="DomainType">DOMAIN_SEA</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_AKSUM_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- EGYPT -->
+	<Modifier id="TRAIT_MOD_GIFTS_OF_OSIRIS_NAVIGABLE_RIVER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">EgyptGiftsOfOsirisNavigableRiverProduction</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_EGYPT_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- GREECE -->
+	<Modifier id="TRAIT_MOD_DEMOKRATIA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+	</Modifier>
+	<!-- HAN -->
+	<Modifier id="TRAIT_MOD_NINE_PROVINCES_CAPITAL" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_POPULATION" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_PALACE</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_GAME_TURN_ATLEAST">
+				<Argument name="MinGameTurn">3</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_NINE_PROVINCES_TOWN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_POPULATION" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<!-- KHMER -->
+	<Modifier id="TRAIT_MOD_KSEKAM_CHAMNON_MINOR_RIVER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_NATURAL_YIELDS">
+		<Argument name="MinorRivers">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_KHMER_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_KSEKAM_CHAMNON_NAVIGABLE_RIVER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_NATURAL_YIELDS">
+		<Argument name="TerrainTypes">TERRAIN_NAVIGABLE_RIVER</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_KHMER_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- MAURYA -->
+	<Modifier id="TRAIT_MOD_DHAMMA_LIPI_PANTHEON" collection="COLLECTION_OWNER" effect="EFFECT_ADD_PANTHEON">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+				<Argument name="ProgressionTreeNodeType">NODE_CIVIC_AQ_MAIN_MYSTICISM</Argument>
+				<Argument name="MinDepth">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_NAGARIKA_CITY_HALL_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<!-- MAYA -->
+	<Modifier id="TRAIT_MOD_SKIES_OF_ITZAMNA_PALACE" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">MayaSkiesOfItzamnaPalaceVegetatedScience</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_MAYA_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- MISSISSIPPIAN -->
+	<Modifier id="TRAIT_MOD_GOOSE_SOCIETIES" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">GooseSocietiesWildcardResourceFood</Argument>
+	</Modifier>
+	<!-- PERSIA -->
+	<Modifier id="TRAIT_MOD_HAMARANA_COUNCIL" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_HAMARANA_COUNCIL</Argument>
+	</Modifier>
+	<!-- ROME -->
+	<Modifier id="TRAIT_MOD_TWELVE_TABLES_CAPITAL" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_MOD_TWELVE_TABLES_CAPITAL</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TWELVE_TABLES_TOWNS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_MOD_TWELVE_TABLES_TOWNS</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_MOD_TWELVE_TABLES_CAPITAL" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER, URBAN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_ROME_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_MOD_TWELVE_TABLES_TOWNS" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_ROME_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--	Civ Trees							-->
+	<!-- ==================================================	-->
+	<!-- ->
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_AKSUM" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_AKSUM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_AKSUM</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_AKSUM_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_EGYPT" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_EGYPT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_EGYPT</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_EGYPT_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_GREECE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_GREECE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_GREECE</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_GREECE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_HAN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_HAN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_HAN</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_HAN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_KHMER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_KHMER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_KHMER</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_KHMER_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_MAURYA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MAURYA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_MAURYA</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_MAURYA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_MAYA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MAYA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_MAYA</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_MAYA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_MISSISSIPPIAN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MISSISSIPPIAN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_MISSISSIPPIAN</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_MISSISSIPPIAN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_PERSIA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_PERSIA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_PERSIA</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_PERSIA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_ROME" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ROME</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_ROME</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_ROME_DESCRIPTION</String>
+	</Modifier>
+	<!-- -->
+	<!-- ==================================================	-->
+	<!--	Wonder Bonus							-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_AKSUM" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_AKSUM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_AKSUM_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_EGYPT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_EGYPT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_EGYPT_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_GREECE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_GREECE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_GREECE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_HAN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_HAN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_HAN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_KHMER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_KHMER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_KHMER_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_MAURYA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MAURYA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_MAURYA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_MAYA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MAYA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_MAYA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_MISSISSIPPIAN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_MISSISSIPPIAN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_MISSISSIPPIAN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_PERSIA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_PERSIA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_PERSIA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_ROME" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ROME</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_ROME_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

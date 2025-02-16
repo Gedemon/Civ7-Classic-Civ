@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<Database>
+	<EnglishText>
+		<!--Civilization Traits-->
+		<Row Tag="LOC_TRAIT_ABBASID_ABILITY_NAME">
+			<Text>Madina</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ABBASID_DESCRIPTION">
+			<Text>Receive 30 [icon:YIELD_GOLD] Gold for each Rural Population of the City when you create a Specialist. (Scales by Game Speed)</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ABBASID_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]Receive [B]30 [icon:YIELD_GOLD] Gold [/B]for each [B]Rural Population [/B]of the City when you create a [B]Specialist[/B]. (Scales by Game Speed)[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]House of Wisdom[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ABBASID_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Abbasid's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CHOLA_ABILITY_NAME">
+			<Text>Samayam</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CHOLA_DESCRIPTION">
+			<Text>+1 Trade Route from the Improve Trade Relations Action.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CHOLA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+1 Trade Route [/B]from the [B]Improve Trade Relations [/B]Action.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Brihadeeswarar Temple[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_CHOLA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Chola's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAWAII_ABILITY_NAME">
+			<Text>Moananuiākea</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAWAII_DESCRIPTION">
+			<Text>Gain 25 [icon:YIELD_CULTURE] Culture each time a Settlement expands to Marine Terrain. +1[icon:YIELD_HAPPINESS] Happiness on [B]Fishing Boats.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAWAII_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]Gain [B]25 [icon:YIELD_CULTURE] Culture [/B]each time a Settlement expands to [B]Marine Terrain[/B].[LI][B]+1[icon:YIELD_HAPPINESS] Happiness[/B] on [B]Fishing Boats.[/B][LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Hale o Keawe[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_HAWAII_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Hawai'i's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_INCA_ABILITY_NAME">
+			<Text>Apus</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_INCA_DESCRIPTION">
+			<Text>Can work Mountain Terrain. +2[icon:YIELD_FOOD] Food and +1[icon:YIELD_PRODUCTION] Production on Mountain Terrain.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_INCA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]Can work [B]Mountain Terrain[/B].[LI][B]+2 [icon:YIELD_FOOD] Food [/B]and [B]+1 [icon:YIELD_PRODUCTION] Production [/B]on [B]Mountain Terrain[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Machu Pikchu[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_INCA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Inca's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MAJAPAHIT_ABILITY_NAME">
+			<Text>Negara</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MAJAPAHIT_DESCRIPTION">
+			<Text>All Cities except the Capital receive +1 Specialist Limit. After the Exploration Age the Specialist Limit increase goes away, the Specialists become inactive until you increase the Limit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MAJAPAHIT_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]All Cities except the Capital receive [B]+1 Specialist Limit[/B].[LI]After the Exploration Age the Specialist Limit increase goes away, the Specialists become inactive until you increase the Limit.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Borobudur[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MAJAPAHIT_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Majapahit's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MING_ABILITY_NAME">
+			<Text>Great Canon of Yongle</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MING_DESCRIPTION">
+			<Text>+50% [icon:YIELD_SCIENCE] Science in the Capital. -15 [icon:YIELD_SCIENCE] Science per turn for each Social Policy, but not Tradition, slotted.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MING_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+50% [icon:YIELD_SCIENCE] Science [/B]in the [B]Capital[/B].[LI][B]-15 [icon:YIELD_SCIENCE] Science [/B]per turn for each [B]Social Policy[/B], but not Tradition, slotted.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Forbidden City[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MING_DESCRIPTION">
+			<Text>+30%[icon:YIELD_PRODUCTION] Production from being the Ming's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MONGOLIA_ABILITY_NAME">
+			<Text>Bokh</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION">
+			<Text>When you capture an opposing Settlement gain the strongest Cavalry Unit you can currently train, but -50% [icon:YIELD_PRODUCTION] Production towards training Settlers. Gain 1 Point toward the Non Sufficit Orbis Legacy Path for controlled Settlements in the Distant Lands and conquered Settlements in the Homelands.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MONGOLIA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]When you [B]capture [/B]an opposing Settlement gain the strongest [B]Cavalry Unit [/B]you can currently train, but [B]-50% [icon:YIELD_PRODUCTION] Production [/B]towards training [B]Settlers[/B].[LI]Gain [B]1 Point [/B]toward the [B]Non Sufficit Orbis Legacy Path [/B]for [B]controlled Settlements [/B]in the Distant Lands and [B]conquered Settlements [/B]in the Homelands.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Erdene Zuu[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MONGOLIA_DESCRIPTION">
+			<Text>+30%[icon:YIELD_PRODUCTION] Production from being Mongolia's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_NORMAN_ABILITY_NAME">
+			<Text>Normannitas</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NORMAN_DESCRIPTION">
+			<Text>Land Units receive +1 Movement when Embarked and Land Units adjacent to Coast receive +5 Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_NORMAN_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]Land Units [/B]receive [B]+1 Movement [/B]when [B]Embarked [/B]and [B]Land Units [/B]adjacent to [B]Coast [/B]receive [B]+5 Combat Strength[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]White Tower[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_NORMAN_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Norman's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ADJACENT_TO_COAST_COMBAT_DESCRIPTION">
+			<Text>Land Units adjacent to Coast receive +5 Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SONGHAI_ABILITY_NAME">
+			<Text>Tarikh al-Sudan</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SONGHAI_DESCRIPTION">
+			<Text>+2 Resource Capacity in Cities on Navigable Rivers and your Trade Ships cannot be Plundered on Navigable Rivers.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SONGHAI_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+2 Resource Capacity[/B] in [B]Cities[/B] on [B]Navigable Rivers[/B] and your [B]Trade Ships [/B]cannot be [B]Plundered[/B] on [B]Navigable Rivers[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Tomb of Askia[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SONGHAI_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Songhai's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SPAIN_ABILITY_NAME">
+			<Text>Siglo de Oro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SPAIN_DESCRIPTION">
+			<Text>+15% [icon:YIELD_GOLD] Gold towards converting a Town to a City, or +30% in Distant Lands.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SPAIN_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+15% [icon:YIELD_GOLD] Gold [/B]towards [B]converting [/B]a Town to a City, or [B]+30% [/B]in [B]Distant Lands[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]El Escorial[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SPAIN_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Spain's associated Wonder.</Text>
+		</Row>
+	</EnglishText>
+</Database>

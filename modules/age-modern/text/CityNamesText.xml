@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- America -->
+		<Row Tag="LOC_CITY_NAME_AMERICA1">
+			<Text>Washington, D.C.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA2">
+			<Text>New York City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA3">
+			<Text>Philadelphia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA4">
+			<Text>Baltimore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA5">
+			<Text>Boston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA6">
+			<Text>Chicago</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA7">
+			<Text>New Orleans</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA8">
+			<Text>St. Louis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA9">
+			<Text>Cincinnati</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA10">
+			<Text>Cleveland</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA11">
+			<Text>Pittsburgh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA12">
+			<Text>Buffalo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA13">
+			<Text>San Francisco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA14">
+			<Text>Detroit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA15">
+			<Text>Charleston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA16">
+			<Text>Albany</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA17">
+			<Text>Newark</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA18">
+			<Text>Providence</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA19">
+			<Text>Milwaukee</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA20">
+			<Text>Los Angeles</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA21">
+			<Text>Salem</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA22">
+			<Text>Louisville</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA23">
+			<Text>Richmond</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA24">
+			<Text>Norfolk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA25">
+			<Text>Minneapolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA26">
+			<Text>Jersey City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA27">
+			<Text>Newport</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA28">
+			<Text>Newburyport</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA29">
+			<Text>Indianapolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA30">
+			<Text>Kansas City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA31">
+			<Text>Rochester</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMERICA32">
+			<Text>Seattle</Text>
+		</Row>
+		<!-- Buganda -->
+		<Row Tag="LOC_CITY_NAME_BUGANDA1">
+			<Text>Kampala</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA2">
+			<Text>Kasangati</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA3">
+			<Text>Mukono</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA4">
+			<Text>Ssentema</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA5">
+			<Text>Butoolo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA6">
+			<Text>Mitiyana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA7">
+			<Text>Buzinde</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA8">
+			<Text>Nakasongola</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA9">
+			<Text>Kaabasanda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA10">
+			<Text>Masaka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA11">
+			<Text>Sembalue</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA12">
+			<Text>Lakaayi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA13">
+			<Text>Kabula</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA14">
+			<Text>Mwera</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA15">
+			<Text>Ntenjeru</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA16">
+			<Text>Mpenja</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA17">
+			<Text>Kanoni</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA18">
+			<Text>Kaweeri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA19">
+			<Text>Kalangala</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA20">
+			<Text>Maggyo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA21">
+			<Text>Kibbale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA22">
+			<Text>Kakumiro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA23">
+			<Text>Jinja</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA24">
+			<Text>Entebbe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA25">
+			<Text>Wakiso</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA26">
+			<Text>Njeru</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA27">
+			<Text>Mpigi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA28">
+			<Text>Kayunga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA29">
+			<Text>Luweero</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA30">
+			<Text>Kiboga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA31">
+			<Text>Nansana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA32">
+			<Text>Kira</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA33">
+			<Text>Ssabagabo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA34">
+			<Text>Kyengera</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUGANDA35">
+			<Text>Wobulenzi</Text>
+		</Row>
+		<!-- French Empire -->
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE1">
+			<Text>Paris</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE2">
+			<Text>Lyon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE3">
+			<Text>Marseille</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE4">
+			<Text>Bordeaux</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE5">
+			<Text>Lille</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE6">
+			<Text>Nantes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE7">
+			<Text>Saint-Étienne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE8">
+			<Text>Toulouse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE9">
+			<Text>Rouen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE10">
+			<Text>Le Havre</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE11">
+			<Text>Ajaccio</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE12">
+			<Text>Brest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE13">
+			<Text>Roubaix</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE14">
+			<Text>Reims</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE15">
+			<Text>Toulon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE16">
+			<Text>Amiens</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE17">
+			<Text>Nancy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE18">
+			<Text>Mulhouse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE19">
+			<Text>Nîmes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE20">
+			<Text>Limoges</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE21">
+			<Text>Rennes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE22">
+			<Text>Angers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE23">
+			<Text>Montpellier</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE24">
+			<Text>Besançon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE25">
+			<Text>Nice</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE26">
+			<Text>Orléans</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE27">
+			<Text>Tours</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE28">
+			<Text>Metz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE29">
+			<Text>Cherbourg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE30">
+			<Text>Le Mans</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE31">
+			<Text>Versailles</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE32">
+			<Text>Tourcoing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE33">
+			<Text>Dijon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE34">
+			<Text>Dunkerque</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE35">
+			<Text>Grenoble</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE36">
+			<Text>Clermont-Ferrand</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE37">
+			<Text>Caen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE38">
+			<Text>Troyes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE39">
+			<Text>Boulogne-sur-Mer</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRENCH_EMPIRE40">
+			<Text>Saint-Denis</Text>
+		</Row>
+		<!-- Meiji -->
+		<Row Tag="LOC_CITY_NAME_MEIJI1">
+			<Text>Tokyo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI2">
+			<Text>Osaka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI3">
+			<Text>Kyoto</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI4">
+			<Text>Kanazawa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI5">
+			<Text>Nagoya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI6">
+			<Text>Sendai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI7">
+			<Text>Fushimi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI8">
+			<Text>Kagoshima</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI9">
+			<Text>Kumamoto</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI10">
+			<Text>Sakai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI11">
+			<Text>Fukui</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI12">
+			<Text>Hirosaki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI13">
+			<Text>Matsue</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI14">
+			<Text>Tottori</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI15">
+			<Text>Fukuoka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI16">
+			<Text>Nagasaki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI17">
+			<Text>Morioka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI18">
+			<Text>Yonezawa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI19">
+			<Text>Hikone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI20">
+			<Text>Kochi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI21">
+			<Text>Akita</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI22">
+			<Text>Niigata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI23">
+			<Text>Nara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI24">
+			<Text>Wakamatsu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI25">
+			<Text>Himeji</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI26">
+			<Text>Kobe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI27">
+			<Text>Kofu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI28">
+			<Text>Yamagata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI29">
+			<Text>Okayama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI30">
+			<Text>Takada</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI31">
+			<Text>Ogaki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI32">
+			<Text>Otsu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI33">
+			<Text>Matsuyama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI34">
+			<Text>Tsuruoka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI35">
+			<Text>Yamada</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI36">
+			<Text>Tsu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIJI37">
+			<Text>Kuwana</Text>
+		</Row>
+		<!-- Mexico -->
+		<Row Tag="LOC_CITY_NAME_MEXICO1">
+			<Text>Ciudad de México</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO2">
+			<Text>Guadalajara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO3">
+			<Text>Puebla</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO4">
+			<Text>Monterrey</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO5">
+			<Text>Tampico </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO6">
+			<Text>Mérida</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO7">
+			<Text>Tehuacán</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO8">
+			<Text>León</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO9">
+			<Text>Toluca</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO10">
+			<Text>Zacatlán</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO11">
+			<Text>Huauchinango</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO12">
+			<Text>Querétaro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO13">
+			<Text>Morelia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO14">
+			<Text>San Luis Potosí</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO15">
+			<Text>Aguascalientes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO16">
+			<Text>Chalchicomula</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO17">
+			<Text>Saltillo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO18">
+			<Text>Veracruz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO19">
+			<Text>Tacubaya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO20">
+			<Text>Torreón</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO21">
+			<Text>Culiacán</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO22">
+			<Text>Durango</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO23">
+			<Text>Cholula</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO24">
+			<Text>San Pedro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO25">
+			<Text>Tacuba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO26">
+			<Text>Mazatlán</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO27">
+			<Text>Chihuahua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO28">
+			<Text>Centro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO29">
+			<Text>Pachuca</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO30">
+			<Text>Colima</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO31">
+			<Text>Pénjamo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO32">
+			<Text>Huejotzingo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO33">
+			<Text>Acatlán</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO34">
+			<Text>Atlixco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO35">
+			<Text>Celaya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO36">
+			<Text>Tepeaca</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO37">
+			<Text>Irapuato</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO38">
+			<Text>Tecamachalco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO39">
+			<Text>Gómez Palacio</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEXICO40">
+			<Text>San Juan del Río</Text>
+		</Row>
+		<!-- Mughal -->
+		<Row Tag="LOC_CITY_NAME_MUGHAL1">
+			<Text>Delhi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL2">
+			<Text>Agra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL3">
+			<Text>Kabul</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL4">
+			<Text>Allahabad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL5">
+			<Text>Lahore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL6">
+			<Text>Ahmadabad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL7">
+			<Text>Banaras</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL8">
+			<Text>Cambay</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL9">
+			<Text>Surat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL10">
+			<Text>Burhanpur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL11">
+			<Text>Thatta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL12">
+			<Text>Aurangabad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL13">
+			<Text>Bahkkar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL14">
+			<Text>Multan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL15">
+			<Text>Patna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL16">
+			<Text>Faizabad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL17">
+			<Text>Lucknow</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL18">
+			<Text>Ajmer</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL19">
+			<Text>Ujjain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL20">
+			<Text>Kashmir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL21">
+			<Text>Dhaka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL22">
+			<Text>Ellichpur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL23">
+			<Text>Bidar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL24">
+			<Text>Bijapur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL25">
+			<Text>Haidarabad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL26">
+			<Text>Sira</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL27">
+			<Text>Fatehpur Sikri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL28">
+			<Text>Broach</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL29">
+			<Text>Sehwan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL30">
+			<Text>Jaunpur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL31">
+			<Text>Machhiwara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL32">
+			<Text>Kalinjar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL33">
+			<Text>Murshidabad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL34">
+			<Text>Panipat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUGHAL35">
+			<Text>Sialkot</Text>
+		</Row>
+		<!-- Prussia -->
+		<Row Tag="LOC_CITY_NAME_PRUSSIA1">
+			<Text>Berlin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA2">
+			<Text>Hamburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA3">
+			<Text>München  </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA4">
+			<Text>Dresden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA5">
+			<Text>Leipzig</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA6">
+			<Text>Köln</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA7">
+			<Text>Frankfurt am Main</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA8">
+			<Text>Nürnberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA9">
+			<Text>Düsseldorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA10">
+			<Text>Hannover</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA11">
+			<Text>Stuttgart</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA12">
+			<Text>Chemnitz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA13">
+			<Text>Magdeburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA14">
+			<Text>Charlottenburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA15">
+			<Text>Essen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA16">
+			<Text>Königsberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA17">
+			<Text>Bremen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA18">
+			<Text>Duisburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA19">
+			<Text>Dortmund</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA20">
+			<Text>Halle an der Saale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA21">
+			<Text>Altona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA22">
+			<Text>Straßburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA23">
+			<Text>Kiel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA24">
+			<Text>Mannheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA25">
+			<Text>Elberfeld</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA26">
+			<Text>Rixdorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA27">
+			<Text>Gelsenkirchen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA28">
+			<Text>Braunschweig</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA29">
+			<Text>Kassel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA30">
+			<Text>Bochum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA31">
+			<Text>Karlsruhe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA32">
+			<Text>Krefeld</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRUSSIA33">
+			<Text>Wiesbaden</Text>
+		</Row>
+		<!-- Qing -->
+		<Row Tag="LOC_CITY_NAME_QING1">
+			<Text>Beijing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING2">
+			<Text>Guangzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING3">
+			<Text>Nanjing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING4">
+			<Text>Suzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING5">
+			<Text>Wuchang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING6">
+			<Text>Changsha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING7">
+			<Text>Shanghai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING8">
+			<Text>Shenyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING9">
+			<Text>Lanzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING10">
+			<Text>Kunming</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING11">
+			<Text>Fuzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING12">
+			<Text>Chengdu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING13">
+			<Text>Hankou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING14">
+			<Text>Taipei</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING15">
+			<Text>Qingdao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING16">
+			<Text>Guiyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING17">
+			<Text>Shenzhen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING18">
+			<Text>Harbin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING19">
+			<Text>Hong Kong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING20">
+			<Text>Taiyuan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING21">
+			<Text>Tianjin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING22">
+			<Text>Foshan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING23">
+			<Text>Weihai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING24">
+			<Text>Zhenjiang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING25">
+			<Text>Guilin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING26">
+			<Text>Xi’an</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING27">
+			<Text>Kaifeng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING28">
+			<Text>Baoding</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING29">
+			<Text>Qiqihar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING30">
+			<Text>Jinan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING31">
+			<Text>Wenzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING32">
+			<Text>Dalian</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING33">
+			<Text>Nanning</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING34">
+			<Text>Jilin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING35">
+			<Text>Zhanjiang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING36">
+			<Text>Anqing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QING37">
+			<Text>Changzhou</Text>
+		</Row>
+		<!-- Russia -->
+		<Row Tag="LOC_CITY_NAME_RUSSIA1">
+			<Text>St. Petersburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA2">
+			<Text>Moscow</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA3">
+			<Text>Saratov</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA4">
+			<Text>Kazan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA5">
+			<Text>Rostov on Don</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA6">
+			<Text>Astrakhan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA7">
+			<Text>Tula</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA8">
+			<Text>Nijni-Novgorod</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA9">
+			<Text>Nikolaieff</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA10">
+			<Text>Samara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA11">
+			<Text>Voronezh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA12">
+			<Text>Orenburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA13">
+			<Text>Yaroslavl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA14">
+			<Text>Orel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA15">
+			<Text>Ekaterinodar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA16">
+			<Text>Cronstadt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA17">
+			<Text>Tsaritsyn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA18">
+			<Text>Penza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA19">
+			<Text>Tver</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA20">
+			<Text>Tomsk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA21">
+			<Text>Kursk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA22">
+			<Text>Novotcherkask</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA23">
+			<Text>Irkstk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA24">
+			<Text>Ufa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA25">
+			<Text>Kaluga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA26">
+			<Text>Tambov</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA27">
+			<Text>Smolensk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA28">
+			<Text>Perm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA29">
+			<Text>Vladikavkaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA30">
+			<Text>Ekaterinburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA31">
+			<Text>Simbirsk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA32">
+			<Text>Stavropol</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA33">
+			<Text>Kostroma</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA34">
+			<Text>Omsk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA35">
+			<Text>Yelets</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA36">
+			<Text>Ivanovo-Voznesensk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSSIA37">
+			<Text>Yeisk</Text>
+		</Row>
+		<!-- Siam -->
+		<Row Tag="LOC_CITY_NAME_SIAM1">
+			<Text>Krung Thep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM2">
+			<Text>Krung Sri Ayutthaya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM3">
+			<Text>Nonthaburi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM4">
+			<Text>Nakhon Si Thammarat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM5">
+			<Text>Nakhon Chaisi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM6">
+			<Text>Chiang Mai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM7">
+			<Text>Ratchaburi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM8">
+			<Text>Chachoengsao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM9">
+			<Text>Chanthanaburi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM10">
+			<Text>Chonburi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM11">
+			<Text>Phitsanulok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM12">
+			<Text>Khorat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM13">
+			<Text>Nakhon Sawan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM14">
+			<Text>Phetchaburi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM15">
+			<Text>Songkhla</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM16">
+			<Text>Phuket</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM17">
+			<Text>Ubon Ratchathani</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM18">
+			<Text>Buriram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM19">
+			<Text>Prachinburi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM20">
+			<Text>Tak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM21">
+			<Text>Phetchabun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM22">
+			<Text>Chaiyaphum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM23">
+			<Text>Chiang Rai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM24">
+			<Text>Saraburi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM25">
+			<Text>Pichit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM26">
+			<Text>Nakhorn Nayok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM27">
+			<Text>Samut Prakan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM28">
+			<Text>Suphanburi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM29">
+			<Text>Uthai Thani</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM30">
+			<Text>Kampheng Phet</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM31">
+			<Text>Khon Kaen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM32">
+			<Text>Sakhon Nakhon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM33">
+			<Text>Kalasin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM34">
+			<Text>Loei</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM35">
+			<Text>Chumphon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIAM36">
+			<Text>Trang</Text>
+		</Row>
+	</EnglishText>
+</Database>

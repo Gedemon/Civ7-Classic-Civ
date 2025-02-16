@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!--Major Civs -->
+		<!-- ->
+		<Row Type="CIVILIZATION_AKSUM" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MISSISSIPPIAN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_EGYPT" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_GREECE" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_HAN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_KHMER" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MAURYA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MAYA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_PERSIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_ROME" Kind="KIND_CIVILIZATION"/>
+		<!-- -->
+	</Types>
+	<!-- ->
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_AKSUM" TraitType="TRAIT_AKSUM"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" TraitType="TRAIT_MISSISSIPPIAN"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" TraitType="TRAIT_EGYPT"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" TraitType="TRAIT_GREECE"/>
+		<Row CivilizationType="CIVILIZATION_HAN" TraitType="TRAIT_HAN"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" TraitType="TRAIT_KHMER"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" TraitType="TRAIT_MAURYA"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" TraitType="TRAIT_MAYA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" TraitType="TRAIT_PERSIA"/>
+		<Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_ROME"/>
+	</LegacyCivilizationTraits>
+	<!-- -->
+	<!-- ->
+	<LegacyLeaderCivPriorities>
+		<Row Leader="LEADER_AMINA" CivilizationType="CIVILIZATION_AKSUM"/>
+		<Row Leader="LEADER_AMINA" CivilizationType="CIVILIZATION_EGYPT"/>
+		<Row Leader="LEADER_ASHOKA" CivilizationType="CIVILIZATION_MAURYA"/>
+		<Row Leader="LEADER_ASHOKA" CivilizationType="CIVILIZATION_KHMER"/>
+		<Row Leader="LEADER_AUGUSTUS" CivilizationType="CIVILIZATION_ROME"/>
+		<Row Leader="LEADER_AUGUSTUS" CivilizationType="CIVILIZATION_EGYPT"/>
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" CivilizationType="CIVILIZATION_ROME"/>
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" CivilizationType="CIVILIZATION_GREECE"/>
+		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_ROME"/>
+		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_GREECE"/>
+		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_GREECE"/>
+		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_ROME"/>
+		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_HAN"/>
+		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_ROME"/>
+		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_EGYPT"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" CivilizationType="CIVILIZATION_AKSUM"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" CivilizationType="CIVILIZATION_EGYPT"/>
+		<Row Leader="LEADER_HATSHEPSUT" CivilizationType="CIVILIZATION_EGYPT"/>
+		<Row Leader="LEADER_HATSHEPSUT" CivilizationType="CIVILIZATION_AKSUM"/>
+		<Row Leader="LEADER_HIMIKO" CivilizationType="CIVILIZATION_MISSISSIPPIAN"/>
+		<Row Leader="LEADER_HIMIKO" CivilizationType="CIVILIZATION_KHMER"/>
+		<Row Leader="LEADER_IBN_BATTUTA" CivilizationType="CIVILIZATION_AKSUM"/>
+		<Row Leader="LEADER_IBN_BATTUTA" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row Leader="LEADER_ISABELLA" CivilizationType="CIVILIZATION_GREECE"/>
+		<Row Leader="LEADER_ISABELLA" CivilizationType="CIVILIZATION_EGYPT"/>
+		<Row Leader="LEADER_JOSE_RIZAL" CivilizationType="CIVILIZATION_MISSISSIPPIAN"/>
+		<Row Leader="LEADER_JOSE_RIZAL" CivilizationType="CIVILIZATION_MAYA"/>
+		<Row Leader="LEADER_LAFAYETTE" CivilizationType="CIVILIZATION_GREECE"/>
+		<Row Leader="LEADER_LAFAYETTE" CivilizationType="CIVILIZATION_ROME"/>
+		<Row Leader="LEADER_MACHIAVELLI" CivilizationType="CIVILIZATION_ROME"/>
+		<Row Leader="LEADER_MACHIAVELLI" CivilizationType="CIVILIZATION_GREECE"/>
+		<Row Leader="LEADER_PACHACUTI" CivilizationType="CIVILIZATION_MAYA"/>
+		<Row Leader="LEADER_PACHACUTI" CivilizationType="CIVILIZATION_MISSISSIPPIAN"/>
+		<Row Leader="LEADER_TRUNG_TRAC" CivilizationType="CIVILIZATION_KHMER"/>
+		<Row Leader="LEADER_TRUNG_TRAC" CivilizationType="CIVILIZATION_MAURYA"/>
+		<Row Leader="LEADER_XERXES" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row Leader="LEADER_XERXES" CivilizationType="CIVILIZATION_MAURYA"/>
+	</LegacyLeaderCivPriorities>
+	<!-- -->
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_AMINA" Civilization="CIVILIZATION_AKSUM" Priority="2"/>
+		<Row Leader="LEADER_AMINA" Civilization="CIVILIZATION_EGYPT" Priority="2"/>
+		<Row Leader="LEADER_ASHOKA" Civilization="CIVILIZATION_MAURYA" Priority="4"/>
+		<Row Leader="LEADER_ASHOKA" Civilization="CIVILIZATION_KHMER" Priority="2"/>
+		<Row Leader="LEADER_AUGUSTUS" Civilization="CIVILIZATION_ROME" Priority="4"/>
+		<Row Leader="LEADER_AUGUSTUS" Civilization="CIVILIZATION_EGYPT" Priority="1"/>
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" Civilization="CIVILIZATION_ROME" Priority="2"/>
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" Civilization="CIVILIZATION_GREECE" Priority="2"/>
+		<Row Leader="LEADER_CATHERINE" Civilization="CIVILIZATION_ROME" Priority="2"/>
+		<Row Leader="LEADER_CATHERINE" Civilization="CIVILIZATION_GREECE" Priority="2"/>
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_GREECE" Priority="2"/>
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_ROME" Priority="2"/>
+		<Row Leader="LEADER_CONFUCIUS" Civilization="CIVILIZATION_HAN" Priority="4"/>
+		<Row Leader="LEADER_FRIEDRICH" Civilization="CIVILIZATION_ROME" Priority="2"/>
+		<Row Leader="LEADER_FRIEDRICH" Civilization="CIVILIZATION_EGYPT" Priority="1"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" Civilization="CIVILIZATION_AKSUM" Priority="2"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" Civilization="CIVILIZATION_EGYPT" Priority="2"/>
+		<Row Leader="LEADER_HATSHEPSUT" Civilization="CIVILIZATION_EGYPT" Priority="4"/>
+		<Row Leader="LEADER_HATSHEPSUT" Civilization="CIVILIZATION_AKSUM" Priority="1"/>
+		<Row Leader="LEADER_HIMIKO" Civilization="CIVILIZATION_MISSISSIPPIAN" Priority="2"/>
+		<Row Leader="LEADER_HIMIKO" Civilization="CIVILIZATION_KHMER" Priority="2"/>
+		<Row Leader="LEADER_IBN_BATTUTA" Civilization="CIVILIZATION_AKSUM" Priority="2"/>
+		<Row Leader="LEADER_IBN_BATTUTA" Civilization="CIVILIZATION_PERSIA" Priority="2"/>
+		<Row Leader="LEADER_ISABELLA" Civilization="CIVILIZATION_GREECE" Priority="2"/>
+		<Row Leader="LEADER_ISABELLA" Civilization="CIVILIZATION_EGYPT" Priority="2"/>
+		<Row Leader="LEADER_JOSE_RIZAL" Civilization="CIVILIZATION_MISSISSIPPIAN" Priority="2"/>
+		<Row Leader="LEADER_JOSE_RIZAL" Civilization="CIVILIZATION_MAYA" Priority="2"/>
+		<Row Leader="LEADER_LAFAYETTE" Civilization="CIVILIZATION_GREECE" Priority="2"/>
+		<Row Leader="LEADER_LAFAYETTE" Civilization="CIVILIZATION_ROME" Priority="2"/>
+		<Row Leader="LEADER_MACHIAVELLI" Civilization="CIVILIZATION_ROME" Priority="1"/>
+		<Row Leader="LEADER_MACHIAVELLI" Civilization="CIVILIZATION_GREECE" Priority="1"/>
+		<Row Leader="LEADER_PACHACUTI" Civilization="CIVILIZATION_MAYA" Priority="2"/>
+		<Row Leader="LEADER_PACHACUTI" Civilization="CIVILIZATION_MISSISSIPPIAN" Priority="2"/>
+		<Row Leader="LEADER_TRUNG_TRAC" Civilization="CIVILIZATION_KHMER" Priority="2"/>
+		<Row Leader="LEADER_TRUNG_TRAC" Civilization="CIVILIZATION_MAURYA" Priority="2"/>
+		<Row Leader="LEADER_XERXES" Civilization="CIVILIZATION_PERSIA" Priority="4"/>
+		<Row Leader="LEADER_XERXES" Civilization="CIVILIZATION_MAURYA" Priority="1"/>
+	</LeaderCivPriorities>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_AKSUM" FavoredWonderType="WONDER_GREAT_STELE" FavoredWonderName="LOC_WONDER_GREAT_STELE_NAME"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" FavoredWonderType="WONDER_PYRAMIDS" FavoredWonderName="LOC_WONDER_PYRAMIDS_NAME"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" FavoredWonderType="WONDER_ORACLE" FavoredWonderName="LOC_WONDER_ORACLE_NAME"/>
+		<Row CivilizationType="CIVILIZATION_HAN" FavoredWonderType="WONDER_WEIYANG_PALACE" FavoredWonderName="LOC_WONDER_WEIYANG_PALACE_NAME"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" FavoredWonderType="WONDER_ANGKOR_WAT" FavoredWonderName="LOC_WONDER_ANGKOR_WAT_NAME"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" FavoredWonderType="WONDER_SANCHI_STUPA" FavoredWonderName="LOC_WONDER_SANCHI_STUPA_NAME"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" FavoredWonderType="WONDER_MUNDO_PERDIDO" FavoredWonderName="LOC_WONDER_MUNDO_PERDIDO_NAME"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" FavoredWonderType="WONDER_MONKS_MOUND" FavoredWonderName="LOC_WONDER_MONKS_MOUND_NAME"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" FavoredWonderType="WONDER_GATE_OF_ALL_NATIONS" FavoredWonderName="LOC_WONDER_GATE_OF_ALL_NATIONS_NAME"/>
+		<Row CivilizationType="CIVILIZATION_ROME" FavoredWonderType="WONDER_COLOSSEUM" FavoredWonderName="LOC_WONDER_COLOSSEUM_NAME"/>
+	</CivilizationFavoredWonders>
+	<CityNames>
+		<!--Aksum-->
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM1"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM2"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM3"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM4"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM5"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM6"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM7"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM8"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM9"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM10"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM11"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM12"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM13"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM14"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM15"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM16"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM17"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM18"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM19"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM20"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM21"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM22"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM23"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM24"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM25"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM26"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM27"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM28"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM29"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM30"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM31"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM32"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM33"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" CityName="LOC_CITY_NAME_AKSUM34"/>
+		<!--Egypt-->
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT1"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT2"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT3"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT4"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT5"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT6"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT7"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT8"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT9"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT10"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT11"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT12"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT13"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT14"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT15"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT16"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT17"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT18"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT19"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT20"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT21"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT22"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT23"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT24"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT25"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT26"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT27"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT28"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT29"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" CityName="LOC_CITY_NAME_EGYPT30"/>
+		<!--Greece-->
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE1"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE2"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE3"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE4"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE5"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE6"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE7"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE8"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE9"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE10"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE11"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE12"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE13"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE14"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE15"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE16"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE17"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE18"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE19"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE20"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE21"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE22"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE23"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE24"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE25"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE26"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE27"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE28"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE29"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE30"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE31"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE32"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE33"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE34"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" CityName="LOC_CITY_NAME_GREECE35"/>
+		<!--Han-->
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN1"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN2"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN3"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN4"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN5"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN6"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN7"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN8"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN9"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN10"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN11"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN12"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN13"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN14"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN15"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN16"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN17"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN18"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN19"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN20"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN21"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN22"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN23"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN24"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN25"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN26"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN27"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN28"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN29"/>
+		<Row CivilizationType="CIVILIZATION_HAN" CityName="LOC_CITY_NAME_HAN30"/>
+		<!--Khmer-->
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER1"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER2"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER3"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER4"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER5"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER6"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER7"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER8"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER9"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER10"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER11"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER12"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER13"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER14"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER15"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER16"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER17"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER18"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER19"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER20"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER21"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER22"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER23"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER24"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER25"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER26"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER27"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER28"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER29"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KHMER30"/>
+		<!--Maurya-->
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA1"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA2"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA3"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA4"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA5"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA6"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA7"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA8"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA9"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA10"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA11"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA12"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA13"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA14"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA15"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA16"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA17"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA18"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA19"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA20"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA21"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA22"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA23"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA24"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA25"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA26"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA27"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA28"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA29"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" CityName="LOC_CITY_NAME_MAURYA30"/>
+		<!--Maya-->
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA1"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA2"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA3"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA4"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA4"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA5"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA6"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA7"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA8"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA9"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA10"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA11"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA12"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA13"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA14"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA15"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA16"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA17"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA18"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA19"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA20"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA21"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA22"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA23"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA24"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA25"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA26"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA27"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA28"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA29"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA30"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA31"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA32"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA33"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" CityName="LOC_CITY_NAME_MAYA34"/>
+		<!--Mississippian-->
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN1"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN2"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN3"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN4"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN5"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN6"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN7"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN8"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN9"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN10"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN11"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN12"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN13"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN14"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN15"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN16"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN17"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN18"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN19"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN20"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN21"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN22"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN23"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN24"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN25"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" CityName="LOC_CITY_NAME_MISSISSIPPIAN26"/>
+		<!--Persia-->
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA1"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA2"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA3"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA4"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA5"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA6"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA7"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA8"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA9"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA10"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA11"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA12"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA13"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA14"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA15"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA16"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA17"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA18"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA19"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA20"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA21"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA22"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA23"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA24"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA25"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA26"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA27"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA28"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA29"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PERSIA30"/>
+		<!--Rome-->
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME1"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME2"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME3"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME4"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME5"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME6"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME7"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME8"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME9"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME10"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME11"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME12"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME13"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME14"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME15"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME16"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME17"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME18"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME19"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME20"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME21"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME22"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME23"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME24"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME25"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME26"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME27"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME28"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME29"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME30"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME31"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME32"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME33"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME34"/>
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_ROME35"/>
+	</CityNames>
+	<StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_EGYPT" BiomeType="BIOME_DESERT" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" BiomeType="BIOME_GRASSLAND" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_HAN" BiomeType="BIOME_GRASSLAND" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" BiomeType="BIOME_TROPICAL" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" BiomeType="BIOME_TROPICAL" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" BiomeType="BIOME_DESERT" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_ROME" BiomeType="BIOME_GRASSLAND" Score="5"/>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_AKSUM" TerrainType="TERRAIN_HILL" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="20"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" TerrainType="TERRAIN_HILL" Score="15"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" TerrainType="TERRAIN_FLAT" Score="15"/>
+	</StartBiasTerrains>
+	<StartBiasFeatureClasses>
+		<Row CivilizationType="CIVILIZATION_KHMER" FeatureClassType="FEATURE_CLASS_FLOODPLAIN" Score="15"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="15"/>
+	</StartBiasFeatureClasses>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" Score="5"/>
+	</StartBiasRivers>
+	<StartBiasAdjacentToCoasts>
+		<Row CivilizationType="CIVILIZATION_AKSUM" Score="150"/>
+	</StartBiasAdjacentToCoasts>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_AKSUM" BuildingCulture="BUILDING_CULTURE_NAF"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" BuildingCulture="ANT_MUD"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" BuildingCulture="EXP_MUD"/>
+		<Row CivilizationType="CIVILIZATION_AKSUM" BuildingCulture="MOD_MUD"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" BuildingCulture="BUILDING_CULTURE_NAF"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" BuildingCulture="ANT_MUD"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" BuildingCulture="EXP_MUD"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" BuildingCulture="MOD_MUD"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" BuildingCulture="BUILDING_CULTURE_MED"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_HAN" BuildingCulture="BUILDING_CULTURE_EAS"/>
+		<Row CivilizationType="CIVILIZATION_HAN" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_HAN" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_HAN" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" BuildingCulture="BUILDING_CULTURE_PAC"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" BuildingCulture="BUILDING_CULTURE_MID"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" BuildingCulture="ANT_MUD"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" BuildingCulture="EXP_MUD"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" BuildingCulture="MOD_MUD"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" BuildingCulture="BUILDING_CULTURE_SAM"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" BuildingCulture="BUILDING_CULTURE_NAM"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" BuildingCulture="BUILDING_CULTURE_MID"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" BuildingCulture="ANT_MUD"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" BuildingCulture="EXP_MUD"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" BuildingCulture="MOD_MUD"/>
+		<Row CivilizationType="CIVILIZATION_ROME" BuildingCulture="BUILDING_CULTURE_MED"/>
+		<Row CivilizationType="CIVILIZATION_ROME" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ROME" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ROME" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_AKSUM" UnitCulture="Afr"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" UnitCulture="Afr"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" UnitCulture="Med"/>
+		<Row CivilizationType="CIVILIZATION_HAN" UnitCulture="Asian"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" UnitCulture="Asian"/>
+		<Row CivilizationType="CIVILIZATION_MAURYA" UnitCulture="MidE"/>
+		<Row CivilizationType="CIVILIZATION_MAYA" UnitCulture="SAmer"/>
+		<Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" UnitCulture="NAmer"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" UnitCulture="MidE"/>
+		<Row CivilizationType="CIVILIZATION_ROME" UnitCulture="Med"/>
+	</VisArt_CivilizationUnitCultures>
+</Database>

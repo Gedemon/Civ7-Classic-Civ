@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+<!-- Loaded in Antiquity only, exists in other ages -->
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="CIVILIZATION_ABBASID" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_CHOLA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_HAWAII" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_INCA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MAJAPAHIT" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MING" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MONGOLIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_NORMAN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_SONGHAI" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_SPAIN" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ABBASID" TraitType="TRAIT_ABBASID"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" TraitType="TRAIT_CHOLA"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" TraitType="TRAIT_HAWAII"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TraitType="TRAIT_INCA"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" TraitType="TRAIT_MAJAPAHIT"/>
+		<Row CivilizationType="CIVILIZATION_MING" TraitType="TRAIT_MING"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" TraitType="TRAIT_MONGOLIA"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" TraitType="TRAIT_NORMAN"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" TraitType="TRAIT_SONGHAI"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" TraitType="TRAIT_SPAIN"/>
+	</LegacyCivilizationTraits>
+	<LegacyLeaderCivPriorities>
+		<Row Leader="LEADER_AMINA" CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Row Leader="LEADER_AMINA" CivilizationType="CIVILIZATION_ABBASID"/>
+		<Row Leader="LEADER_ASHOKA" CivilizationType="CIVILIZATION_CHOLA"/>
+		<Row Leader="LEADER_ASHOKA" CivilizationType="CIVILIZATION_HAWAII"/>
+		<Row Leader="LEADER_AUGUSTUS" CivilizationType="CIVILIZATION_ABBASID"/>
+		<Row Leader="LEADER_AUGUSTUS" CivilizationType="CIVILIZATION_SPAIN"/>
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" CivilizationType="CIVILIZATION_NORMAN"/>
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" CivilizationType="CIVILIZATION_SPAIN"/>
+		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_NORMAN"/>
+		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_MONGOLIA"/>
+		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_NORMAN"/>
+		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_SPAIN"/>
+		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_MING"/>
+		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_MONGOLIA"/>
+		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_NORMAN"/>
+		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_SPAIN"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" CivilizationType="CIVILIZATION_INCA"/>
+		<Row Leader="LEADER_HATSHEPSUT" CivilizationType="CIVILIZATION_ABBASID"/>
+		<Row Leader="LEADER_HATSHEPSUT" CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Row Leader="LEADER_HIMIKO" CivilizationType="CIVILIZATION_HAWAII"/>
+		<Row Leader="LEADER_HIMIKO" CivilizationType="CIVILIZATION_MAJAPAHIT"/>
+		<Row Leader="LEADER_IBN_BATTUTA" CivilizationType="CIVILIZATION_ABBASID"/>
+		<Row Leader="LEADER_IBN_BATTUTA" CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Row Leader="LEADER_ISABELLA" CivilizationType="CIVILIZATION_SPAIN"/>
+		<Row Leader="LEADER_ISABELLA" CivilizationType="CIVILIZATION_ABBASID"/>
+		<Row Leader="LEADER_JOSE_RIZAL" CivilizationType="CIVILIZATION_HAWAII"/>
+		<Row Leader="LEADER_JOSE_RIZAL" CivilizationType="CIVILIZATION_MAJAPAHIT"/>
+		<Row Leader="LEADER_LAFAYETTE" CivilizationType="CIVILIZATION_NORMAN"/>
+		<Row Leader="LEADER_LAFAYETTE" CivilizationType="CIVILIZATION_SPAIN"/>
+		<Row Leader="LEADER_MACHIAVELLI" CivilizationType="CIVILIZATION_NORMAN"/>
+		<Row Leader="LEADER_MACHIAVELLI" CivilizationType="CIVILIZATION_SPAIN"/>
+		<Row Leader="LEADER_PACHACUTI" CivilizationType="CIVILIZATION_INCA"/>
+		<Row Leader="LEADER_PACHACUTI" CivilizationType="CIVILIZATION_HAWAII"/>
+		<Row Leader="LEADER_TRUNG_TRAC" CivilizationType="CIVILIZATION_MAJAPAHIT"/>
+		<Row Leader="LEADER_TRUNG_TRAC" CivilizationType="CIVILIZATION_CHOLA"/>
+		<Row Leader="LEADER_XERXES" CivilizationType="CIVILIZATION_ABBASID"/>
+		<Row Leader="LEADER_XERXES" CivilizationType="CIVILIZATION_MONGOLIA"/>
+	</LegacyLeaderCivPriorities>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_AMINA" Civilization="CIVILIZATION_SONGHAI" Priority="3"/>
+		<Row Leader="LEADER_AMINA" Civilization="CIVILIZATION_ABBASID" Priority="1"/>
+		<Row Leader="LEADER_ASHOKA" Civilization="CIVILIZATION_CHOLA" Priority="3"/>
+		<Row Leader="LEADER_ASHOKA" Civilization="CIVILIZATION_HAWAII" Priority="1"/>
+		<Row Leader="LEADER_AUGUSTUS" Civilization="CIVILIZATION_ABBASID" Priority="2"/>
+		<Row Leader="LEADER_AUGUSTUS" Civilization="CIVILIZATION_SPAIN" Priority="2"/>
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" Civilization="CIVILIZATION_NORMAN" Priority="2"/>
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" Civilization="CIVILIZATION_SPAIN" Priority="1"/>
+		<Row Leader="LEADER_CATHERINE" Civilization="CIVILIZATION_NORMAN" Priority="1"/>
+		<Row Leader="LEADER_CATHERINE" Civilization="CIVILIZATION_MONGOLIA" Priority="1"/>
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_NORMAN" Priority="3"/>
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_SPAIN" Priority="1"/>
+		<Row Leader="LEADER_CONFUCIUS" Civilization="CIVILIZATION_MING" Priority="3"/>
+		<Row Leader="LEADER_CONFUCIUS" Civilization="CIVILIZATION_MONGOLIA" Priority="2"/>
+		<Row Leader="LEADER_FRIEDRICH" Civilization="CIVILIZATION_NORMAN" Priority="1"/>
+		<Row Leader="LEADER_FRIEDRICH" Civilization="CIVILIZATION_SPAIN" Priority="1"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" Civilization="CIVILIZATION_SONGHAI" Priority="2"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" Civilization="CIVILIZATION_INCA" Priority="1"/>
+		<Row Leader="LEADER_HATSHEPSUT" Civilization="CIVILIZATION_ABBASID" Priority="2"/>
+		<Row Leader="LEADER_HATSHEPSUT" Civilization="CIVILIZATION_SONGHAI" Priority="2"/>
+		<Row Leader="LEADER_HIMIKO" Civilization="CIVILIZATION_HAWAII" Priority="2"/>
+		<Row Leader="LEADER_HIMIKO" Civilization="CIVILIZATION_MAJAPAHIT" Priority="1"/>
+		<Row Leader="LEADER_IBN_BATTUTA" Civilization="CIVILIZATION_ABBASID" Priority="3"/>
+		<Row Leader="LEADER_IBN_BATTUTA" Civilization="CIVILIZATION_SONGHAI" Priority="2"/>
+		<Row Leader="LEADER_ISABELLA" Civilization="CIVILIZATION_SPAIN" Priority="4"/>
+		<Row Leader="LEADER_ISABELLA" Civilization="CIVILIZATION_ABBASID" Priority="1"/>
+		<Row Leader="LEADER_JOSE_RIZAL" Civilization="CIVILIZATION_HAWAII" Priority="3"/>
+		<Row Leader="LEADER_JOSE_RIZAL" Civilization="CIVILIZATION_MAJAPAHIT" Priority="2"/>
+		<Row Leader="LEADER_LAFAYETTE" Civilization="CIVILIZATION_NORMAN" Priority="2"/>
+		<Row Leader="LEADER_LAFAYETTE" Civilization="CIVILIZATION_SPAIN" Priority="1"/>
+		<Row Leader="LEADER_MACHIAVELLI" Civilization="CIVILIZATION_NORMAN" Priority="1"/>
+		<Row Leader="LEADER_MACHIAVELLI" Civilization="CIVILIZATION_SPAIN" Priority="1"/>
+		<Row Leader="LEADER_PACHACUTI" Civilization="CIVILIZATION_INCA" Priority="4"/>
+		<Row Leader="LEADER_PACHACUTI" Civilization="CIVILIZATION_HAWAII" Priority="1"/>
+		<Row Leader="LEADER_TRUNG_TRAC" Civilization="CIVILIZATION_MAJAPAHIT" Priority="3"/>
+		<Row Leader="LEADER_TRUNG_TRAC" Civilization="CIVILIZATION_CHOLA" Priority="2"/>
+		<Row Leader="LEADER_XERXES" Civilization="CIVILIZATION_ABBASID" Priority="2"/>
+		<Row Leader="LEADER_XERXES" Civilization="CIVILIZATION_MONGOLIA" Priority="2"/>
+	</LeaderCivPriorities>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_ABBASID" FavoredWonderType="WONDER_HOUSE_OF_WISDOM" FavoredWonderName="LOC_WONDER_HOUSE_OF_WISDOM_NAME"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" FavoredWonderType="WONDER_BRIHADEESWARAR_TEMPLE" FavoredWonderName="LOC_WONDER_BRIHADEESWARAR_TEMPLE_NAME"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" FavoredWonderType="WONDER_HALE_O_KEAWE" FavoredWonderName="LOC_WONDER_HALE_O_KEAWE_NAME"/>
+		<Row CivilizationType="CIVILIZATION_INCA" FavoredWonderType="WONDER_MACHU_PIKCHU" FavoredWonderName="LOC_WONDER_MACHU_PIKCHU_NAME"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" FavoredWonderType="WONDER_BOROBUDUR" FavoredWonderName="LOC_WONDER_BOROBUDUR_NAME"/>
+		<Row CivilizationType="CIVILIZATION_MING" FavoredWonderType="WONDER_FORBIDDEN_CITY" FavoredWonderName="LOC_WONDER_FORBIDDEN_CITY_NAME"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" FavoredWonderType="WONDER_ERDENE_ZUU" FavoredWonderName="LOC_WONDER_ERDENE_ZUU_NAME"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" FavoredWonderType="WONDER_WHITE_TOWER" FavoredWonderName="LOC_WONDER_WHITE_TOWER_NAME"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" FavoredWonderType="WONDER_TOMB_OF_ASKIA" FavoredWonderName="LOC_WONDER_TOMB_OF_ASKIA_NAME"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" FavoredWonderType="WONDER_EL_ESCORIAL" FavoredWonderName="LOC_WONDER_EL_ESCORIAL_NAME"/>
+	</CivilizationFavoredWonders>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_ORTOO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ABBASID" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHOLA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HAWAII" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAJAPAHIT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INCA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MING" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MONGOLIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NORMAN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SONGHAI" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SPAIN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_MONGOLIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_ORTOO" RequirementId="REQ_PLOT_IMPROVEMENT_ORTOO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ABBASID" RequirementId="REQ_PLAYER_HAS_TRAIT_ABBASID"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHOLA" RequirementId="REQ_PLAYER_HAS_TRAIT_CHOLA"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HAWAII" RequirementId="REQ_PLAYER_HAS_TRAIT_HAWAII"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INCA" RequirementId="REQ_PLAYER_HAS_TRAIT_INCA"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAJAPAHIT" RequirementId="REQ_PLAYER_HAS_TRAIT_MAJAPAHIT"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MING" RequirementId="REQ_PLAYER_HAS_TRAIT_MING"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MONGOLIA" RequirementId="REQ_PLAYER_HAS_TRAIT_MONGOLIA"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NORMAN" RequirementId="REQ_PLAYER_HAS_TRAIT_NORMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SONGHAI" RequirementId="REQ_PLAYER_HAS_TRAIT_SONGHAI"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SPAIN" RequirementId="REQ_PLAYER_HAS_TRAIT_SPAIN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_MONGOLIA" RequirementId="REQ_PLAYER_IS_MAJOR"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_MONGOLIA" RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_MONGOLIA"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLOT_IMPROVEMENT_ORTOO" RequirementType="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ABBASID" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_CHOLA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_HAWAII" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_INCA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_MAJAPAHIT" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_MING" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_MONGOLIA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_NORMAN" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_SONGHAI" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_SPAIN" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_MONGOLIA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" Inverse="true"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLOT_IMPROVEMENT_ORTOO" Name="ConstructibleType" Value="IMPROVEMENT_ORTOO"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ABBASID" Name="TraitType" Value="TRAIT_ABBASID"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_CHOLA" Name="TraitType" Value="TRAIT_CHOLA"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_HAWAII" Name="TraitType" Value="TRAIT_HAWAII"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_INCA" Name="TraitType" Value="TRAIT_INCA"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_MAJAPAHIT" Name="TraitType" Value="TRAIT_MAJAPAHIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_MING" Name="TraitType" Value="TRAIT_MING"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_MONGOLIA" Name="TraitType" Value="TRAIT_MONGOLIA"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_NORMAN" Name="TraitType" Value="TRAIT_NORMAN"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_SONGHAI" Name="TraitType" Value="TRAIT_SONGHAI"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_SPAIN" Name="TraitType" Value="TRAIT_SPAIN"/>
+		<Row RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_MONGOLIA" Name="TraitType" Value="TRAIT_MONGOLIA"/>
+	</RequirementArguments>
+	<CityNames>
+		<!--Abbasid-->
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID1"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID2"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID3"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID4"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID5"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID6"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID7"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID8"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID9"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID10"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID11"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID12"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID13"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID14"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID15"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID16"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID17"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID18"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID19"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID20"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID21"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID22"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID23"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID24"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID25"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID26"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID27"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID28"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID29"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID30"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID31"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID32"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" CityName="LOC_CITY_NAME_ABBASID33"/>
+		<!-- Chola -->
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA1"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA2"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA3"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA4"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA5"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA6"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA7"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA8"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA9"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA10"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA11"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA12"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA13"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA14"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA15"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA16"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA17"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA18"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA19"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA20"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA21"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA22"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA23"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA24"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA25"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA26"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA27"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA28"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" CityName="LOC_CITY_NAME_CHOLA29"/>
+		<!-- Hawaii -->
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII1"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII2"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII3"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII4"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII5"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII6"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII7"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII8"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII9"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII10"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII11"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII12"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII13"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII14"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII15"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII16"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII17"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII18"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII19"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII20"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII21"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII22"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII23"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII24"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII25"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII26"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII27"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII28"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII29"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" CityName="LOC_CITY_NAME_HAWAII30"/>
+		<!-- Inca -->
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA1"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA2"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA3"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA4"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA5"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA6"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA7"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA8"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA9"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA10"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA11"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA12"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA13"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA14"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA15"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA16"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA17"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA18"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA19"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA20"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA21"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA22"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA23"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA24"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA25"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA26"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA27"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA28"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA29"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA30"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INCA31"/>
+		<!-- Majapahit -->
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT1"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT2"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT3"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT4"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT5"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT6"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT7"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT8"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT9"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT10"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT11"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT12"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT13"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT14"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT15"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT16"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT17"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT18"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT19"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT20"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT21"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT22"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT23"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT24"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT25"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT26"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT27"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT28"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" CityName="LOC_CITY_NAME_MAJAPAHIT29"/>
+		<!-- Ming -->
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING1"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING2"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING3"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING4"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING5"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING6"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING7"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING8"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING9"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING10"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING11"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING12"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING13"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING14"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING15"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING16"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING17"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING18"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING19"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING20"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING21"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING22"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING23"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING24"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING25"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING26"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING27"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING28"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING29"/>
+		<Row CivilizationType="CIVILIZATION_MING" CityName="LOC_CITY_NAME_MING30"/>
+		<!-- Mongolia -->
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA1"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA2"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA3"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA4"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA5"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA6"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA7"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA8"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA9"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA10"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA11"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA12"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA13"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA14"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA15"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA16"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA17"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA18"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA19"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA20"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA21"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA22"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA23"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA24"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA25"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA26"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA27"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA28"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA29"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="LOC_CITY_NAME_MONGOLIA30"/>
+		<!-- Norman -->
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN1"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN2"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN3"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN4"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN5"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN6"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN7"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN8"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN9"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN10"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN11"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN12"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN13"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN14"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN15"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN16"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN17"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN18"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN19"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN20"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN21"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN22"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN23"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN24"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN25"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN26"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN27"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN28"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN29"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" CityName="LOC_CITY_NAME_NORMAN30"/>
+		<!-- Songhai -->
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI1"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI2"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI3"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI4"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI5"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI6"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI7"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI8"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI9"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI10"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI11"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI12"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI13"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI14"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI15"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI16"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI17"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI18"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI19"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI20"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI21"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI22"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI23"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI24"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI25"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI26"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI27"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI28"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI29"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" CityName="LOC_CITY_NAME_SONGHAI30"/>
+		<!-- Spain-->
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN1"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN2"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN3"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN4"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN5"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN6"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN7"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN8"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN9"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN10"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN11"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN12"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN13"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN14"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN15"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN16"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN17"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN18"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN19"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN20"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN21"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN22"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN23"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN24"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN25"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN26"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN27"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN28"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN29"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN30"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN31"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN32"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN33"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN34"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" CityName="LOC_CITY_NAME_SPAIN35"/>
+	</CityNames>
+	<StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_CHOLA" BiomeType="BIOME_TROPICAL" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" BiomeType="BIOME_MARINE" Score="15"/>
+		<Row CivilizationType="CIVILIZATION_INCA" BiomeType="BIOME_PLAINS" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_INCA" BiomeType="BIOME_DESERT" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" BiomeType="BIOME_PLAINS" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" BiomeType="BIOME_DESERT" Score="5"/>
+	</StartBiasBiomes>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_ABBASID" ResourceType="RESOURCE_CAMELS" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" ResourceType="RESOURCE_SPICES" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_MING" ResourceType="RESOURCE_SILK" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" ResourceType="RESOURCE_HORSES" Score="15"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" ResourceType="RESOURCE_IRON" Score="5"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_INCA" TerrainType="TERRAIN_MOUNTAIN" Score="15"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="20"/>
+	</StartBiasTerrains>
+	<StartBiasRivers/>
+	<StartBiasAdjacentToCoasts>
+		<Row CivilizationType="CIVILIZATION_ABBASID" Score="25"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" Score="150"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" Score="25"/>
+		<Row CivilizationType="CIVILIZATION_INCA" Score="25"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" Score="25"/>
+		<Row CivilizationType="CIVILIZATION_MING" Score="25"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" Score="150"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" Score="25"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" Score="150"/>
+	</StartBiasAdjacentToCoasts>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_ABBASID" BuildingCulture="BUILDING_CULTURE_MID"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" BuildingCulture="ANT_MUD"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" BuildingCulture="EXP_MUD"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" BuildingCulture="MOD_MUD"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" BuildingCulture="BUILDING_CULTURE_PAC"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" BuildingCulture="BUILDING_CULTURE_PAC"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_INCA" BuildingCulture="BUILDING_CULTURE_SAM"/>
+		<Row CivilizationType="CIVILIZATION_INCA" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_INCA" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_INCA" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" BuildingCulture="BUILDING_CULTURE_PAC"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MING" BuildingCulture="BUILDING_CULTURE_EAS"/>
+		<Row CivilizationType="CIVILIZATION_MING" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MING" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MING" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" BuildingCulture="BUILDING_CULTURE_EAS"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" BuildingCulture="BUILDING_CULTURE_NEU"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" BuildingCulture="BUILDING_CULTURE_SAF"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" BuildingCulture="ANT_MUD"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" BuildingCulture="EXP_MUD"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" BuildingCulture="MOD_MUD"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" BuildingCulture="BUILDING_CULTURE_MED"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_ABBASID" UnitCulture="MidE"/>
+		<Row CivilizationType="CIVILIZATION_CHOLA" UnitCulture="MidE"/>
+		<Row CivilizationType="CIVILIZATION_HAWAII" UnitCulture="Asian"/>
+		<Row CivilizationType="CIVILIZATION_INCA" UnitCulture="SAmer"/>
+		<Row CivilizationType="CIVILIZATION_MAJAPAHIT" UnitCulture="Asian"/>
+		<Row CivilizationType="CIVILIZATION_MING" UnitCulture="Asian"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" UnitCulture="Asian"/>
+		<Row CivilizationType="CIVILIZATION_NORMAN" UnitCulture="Euro"/>
+		<Row CivilizationType="CIVILIZATION_SONGHAI" UnitCulture="Afr"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" UnitCulture="Euro"/>
+	</VisArt_CivilizationUnitCultures>
+</Database>

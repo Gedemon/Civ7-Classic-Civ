@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civilization Traits-->
+		<Row Tag="LOC_TRAIT_AMERICA_ABILITY_NAME">
+			<Text>Frontier Expansion</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_AMERICA_DESCRIPTION">
+			<Text>Gain 100 [icon:YIELD_GOLD] Gold every time you improve a Resource.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AMERICA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]Gain [B]100 [icon:YIELD_GOLD] Gold [/B]every time you improve a [B]Resource[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Statue of Liberty[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_AMERICA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being America's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUGANDA_ABILITY_NAME">
+			<Text>River Raids</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_BUGANDA_DESCRIPTION">
+			<Text>Gain [icon:YIELD_CULTURE] Culture when pillaging Buildings or Improvements equal to the yield or healing gained. Land Military Units gain the Amphibious ability.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUGANDA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]Gain [icon:YIELD_CULTURE] [B]Culture [/B]when [B]pillaging [/B]Buildings or Improvements equal to the yield or healing gained.[LI][B]Land Military Units [/B]gain the [B]Amphibious [/B]ability.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Muzibu Azaala Mpanga[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_BUGANDA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Buganda's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FRENCH_EMPIRE_ABILITY_NAME">
+			<Text>Liberté, Egalité, Fraternité</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FRENCH_EMPIRE_DESCRIPTION">
+			<Text>You can select the Celebration effects of any standard Government in Modern Age.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FRENCH_EMPIRE_ALT_DESCRIPTION">
+			<Text>You have the passive effects of all standard Governments in Modern Age, and can select from any of their Celebration effects.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FRENCH_EMPIRE_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]You can select the [B]Celebration effects [/B]of any standard [B]Government [/B]in Modern Age.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Eiffel Tower[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FRENCH_EMPIRE_ABILITY_ALT_DESCRIPTION">
+			<Text>[LIST][LI]You have the [B]passive effects [/B] of all standard [B]Governments [/B]in Modern Age, and can select from any of their [B]Celebration effects[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Eiffel Tower[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_FRENCH_EMPIRE_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the French Empire's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MEIJI_ABILITY_NAME">
+			<Text>Goisshin</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MEIJI_DESCRIPTION">
+			<Text>When you Overbuild a Building, gain [icon:YIELD_SCIENCE] Science equal to 50% of the Building's Production cost.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MEIJI_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]When you [B]Overbuild [/B]a Building, gain [icon:YIELD_SCIENCE] [B]Science [/B]equal to [B]50% [/B]of the Building's Production cost.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Dogo Onsen[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MEIJI_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Meiji's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MEXICO_ABILITY_NAME">
+			<Text>Revolución</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MEXICO_DESCRIPTION">
+			<Text>Starts with a unique Government, Revolución. This Government has one Celebration effect, +30% [icon:YIELD_CULTURE] Culture for 10 Turns. Cannot enter any other Government type.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MEXICO_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]Starts with a unique Government, [B]Revolución[/B]. This Government has one Celebration effect, [B]+30% [icon:YIELD_CULTURE] Culture [/B]for 10 Turns. Cannot enter any other Government type.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Palacio de Bellas Artes[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MEXICO_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Mexico's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MUGHAL_ABILITY_NAME">
+			<Text>Paradise of Nations</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MUGHAL_DESCRIPTION">
+			<Text>+75% [icon:YIELD_GOLD] Gold from all sources. -25% to all other yields.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MUGHAL_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+75% [icon:YIELD_GOLD] Gold [/B]from all sources.[LI][B]-25% [/B]to all other yields.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Red Fort[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MUGHAL_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Mughal's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PRUSSIA_ABILITY_NAME">
+			<Text>Blood and Iron</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PRUSSIA_DESCRIPTION">
+			<Text>Units receive +1 Combat Strength for every Unfriendly or worse Civ Relationship.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PRUSSIA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]Units receive +1 Combat Strength for every Unfriendly or worse Civ Relationship.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Brandenburg Gate[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_PRUSSIA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Prussia's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_QING_ABILITY_NAME">
+			<Text>Kang Qian Shengshi</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_QING_DESCRIPTION">
+			<Text>+4[icon:YIELD_GOLD] Gold, +3[icon:YIELD_CULTURE] Culture, +2[icon:YIELD_DIPLOMACY] Influence, but -1[icon:YIELD_SCIENCE] Science from Imported Resources.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_QING_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+4[icon:YIELD_GOLD], +3[icon:YIELD_CULTURE] Culture, +2[icon:YIELD_DIPLOMACY] Influence[/B]but [B]-1[icon:YIELD_SCIENCE] Science [/B]from [B]imported Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Chengde Mountain Resort[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_QING_DESCRIPTION">
+			<Text>+30%[icon:YIELD_PRODUCTION] Production from being Qing's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_RUSSIA_ABILITY_NAME">
+			<Text>Prosveshchenie</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_RUSSIA_DESCRIPTION">
+			<Text>+1[icon:YIELD_CULTURE] Culture on Districts in Cities. +1 [icon:YIELD_SCIENCE] Science on Districts in Cities in Tundra.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_RUSSIA_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]on [B]Districts [/B]in Cities.[LI][B]+1 [icon:YIELD_SCIENCE] Science [/B]on [B]Districts [/B]in Cities in [B]Tundra[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Hermitage[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_RUSSIA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Russia's associated Wonder.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SIAM_ABILITY_NAME">
+			<Text>Itsapharahab</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SIAM_DESCRIPTION">
+			<Text>Gains a unique Diplomatic Action to immediately become Suzerain of a City-State at a higher [icon:YIELD_DIPLOMACY] Influence cost than Befriend Independent.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SIAM_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]Gains a unique [B]Diplomatic Action [/B]to immediately become [B]Suzerain [/B]of a [B]City-State [/B]at a higher [icon:YIELD_DIPLOMACY] Influence cost than Befriend Independent.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Doi Suthep[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SIAM_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Siam's associated Wonder.</Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="gedemon-classic-civ" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_CLASSIC_CIV_NAME</Name>
+		<Description>LOC_MODULE_CLASSIC_CIV_DESCRIPTION</Description>
+		<Authors>Gedemon</Authors>
+		<Package>MOD</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="classic-civ-no-unlocks">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>ClassicCivSinglePath</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="base-game-main-classic-civ" scope="game" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/GameText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="antiquity-age-persist-classic-civ" scope="game" criteria="antiquity-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>age-antiquity/civilizations-antiquity-unlocks.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="antiquity-in-exploration-age-classic-civ" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>age-antiquity/civilizations-antiquity-base.xml</Item>
+					<Item>age-antiquity/civilizations-antiquity-in-exploration.xml</Item>
+					<Item>age-antiquity/civilizations-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>age-antiquity/text/CivilizationText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="antiquity-in-modern-age-classic-civ" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>age-antiquity/civilizations-antiquity-base.xml</Item>
+					<Item>age-antiquity/civilizations-antiquity-in-modern.xml</Item>
+					<Item>age-antiquity/civilizations-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>age-antiquity/text/CivilizationText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="exploration-in-antiquity-age-classic-civ" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>age-exploration/civilizations-exploration-base.xml</Item>
+					<Item>age-exploration/civilizations-exploration-in-antiquity.xml</Item>
+					<Item>age-exploration/civilizations-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>age-exploration/text/CivilizationText.xml</Item>
+					<Item>age-exploration/text/CityNamesText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="exploration-in-modern-age-classic-civ" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>age-exploration/civilizations-exploration-in-modern.xml</Item>
+					<Item>age-exploration/civilizations-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>age-exploration/text/CivilizationText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="classic-civ-no-unlocks" scope="game" criteria="classic-civ-no-unlocks">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+			</Properties>
+			<Actions>
+				<UpdateDatabase>
+					<Item>base/no-unlock-game.sql</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-classic-civ" scope="shell" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>settings.xml</Item>
+					<Item>config/config.xml</Item>
+					<Item>age-antiquity/config/config-antiquity-in-exploration.xml</Item>
+					<Item>age-antiquity/config/config-antiquity-in-modern.xml</Item>
+					<Item>age-exploration/config/config-exploration-in-antiquity.xml</Item>
+					<Item>age-exploration/config/config-exploration-in-modern.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/ConfigText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-classic-civ-post" scope="shell" criteria="always">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+			</Properties>
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/no-unlock-config.sql</Item>
+					<Item>config/compatibility-config.sql</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Aksum-->
+		<Row Tag="LOC_CITY_NAME_AKSUM1">
+			<Text>Aksum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM2">
+			<Text>Adulis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM3">
+			<Text>Matara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM4">
+			<Text>Lalibela</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM5">
+			<Text>Saba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM6">
+			<Text>Koloë</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM7">
+			<Text>Qohayto</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM8">
+			<Text>Maste</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM9">
+			<Text>Tekondo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM10">
+			<Text>Zala-Bet-Makeda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM11">
+			<Text>Etchmara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM12">
+			<Text>Gulo-Makeda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM13">
+			<Text>Haghero-Deragweh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM14">
+			<Text>Dergouah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM15">
+			<Text>Henzat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM16">
+			<Text>Ham</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM17">
+			<Text>Anza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM18">
+			<Text>Hawzien</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM19">
+			<Text>Degum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM20">
+			<Text>Chergos Agula</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM21">
+			<Text>Nazret</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM22">
+			<Text>Yeha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM23">
+			<Text>Hehzat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM24">
+			<Text>Aden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM25">
+			<Text>Melazo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM26">
+			<Text>Wuchate Golo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM27">
+			<Text>Addi Dahno</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM28">
+			<Text>Edage Hamus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM29">
+			<Text>Addi Galamo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM30">
+			<Text>Wegro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM31">
+			<Text>Kwiha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM32">
+			<Text>Addi Grammaten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM33">
+			<Text>Kaskase</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKSUM34">
+			<Text>Fegya</Text>
+		</Row>
+		<!--Egypt-->
+		<Row Tag="LOC_CITY_NAME_EGYPT1">
+			<Text>Waset</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT2">
+			<Text>Men-nefer</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT3">
+			<Text>Akhetaten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT4">
+			<Text>Djedet</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT5">
+			<Text>Djanet</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT6">
+			<Text>Behdet</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT7">
+			<Text>Nekheb</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT8">
+			<Text>Khemenu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT9">
+			<Text>Nekhen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT10">
+			<Text>Gebtu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT11">
+			<Text>Tjenu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT12">
+			<Text>Per-Atum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT13">
+			<Text>Abdju</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT14">
+			<Text>Zau</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT15">
+			<Text>Ipu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT16">
+			<Text>Khito</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT17">
+			<Text>Swenett</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT18">
+			<Text>Per-Hathor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT19">
+			<Text>Abu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT20">
+			<Text>Hut-waret</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT21">
+			<Text>Djerty</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT22">
+			<Text>Per-Bast</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT23">
+			<Text>Nubt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT24">
+			<Text>Thonis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT25">
+			<Text>Per-Wadjet</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT26">
+			<Text>Dehenet</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT27">
+			<Text>Per-Amun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT28">
+			<Text>Ta-senet</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT29">
+			<Text>Henen-Nesut</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGYPT30">
+			<Text>Per-Ramesses</Text>
+		</Row>
+		<!--Greece-->
+		<Row Tag="LOC_CITY_NAME_GREECE1">
+			<Text>Athênai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE2">
+			<Text>Spártā</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE3">
+			<Text>Thêbai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE4">
+			<Text>Kórinthos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE5">
+			<Text>Argos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE6">
+			<Text>Knōsós</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE7">
+			<Text>Mykenē</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE8">
+			<Text>Olympia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE9">
+			<Text>Chalkís</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE10">
+			<Text>Mīlētos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE11">
+			<Text>Thera</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE12">
+			<Text>Phókaia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE13">
+			<Text>Lindos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE14">
+			<Text>Megara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE15">
+			<Text>Pergamon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE16">
+			<Text>Eretrea </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE17">
+			<Text>Tegea</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE18">
+			<Text>Mantineia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE19">
+			<Text>Halikarnāssós</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE20">
+			<Text>Kérkyra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE21">
+			<Text>Éphesos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE22">
+			<Text>Aigai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE23">
+			<Text>Pella</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE24">
+			<Text>Smýrna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE25">
+			<Text>Syracuse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE26">
+			<Text>Alexandria</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE27">
+			<Text>Mainákē</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE28">
+			<Text>Níkaia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE29">
+			<Text>Pylos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE30">
+			<Text>Byzantion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE31">
+			<Text>Cyrene</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE32">
+			<Text>Lárisa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE33">
+			<Text>Marathon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE34">
+			<Text>Khersónēsos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREECE35">
+			<Text>Amphipolis</Text>
+		</Row>
+		<!--Han-->
+		<Row Tag="LOC_CITY_NAME_HAN1">
+			<Text>Cháng'ān</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN2">
+			<Text>Luoyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN3">
+			<Text>Línzī</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN4">
+			<Text>Chengdu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN5">
+			<Text>Huáiyáng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN6">
+			<Text>Liángzhōu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN7">
+			<Text>Jīnyáng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN8">
+			<Text>Handan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN9">
+			<Text>Pengcheng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN10">
+			<Text>Jì</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN11">
+			<Text>Guanglíng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN12">
+			<Text>Xuchang </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN13">
+			<Text>Xíngyáng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN14">
+			<Text>Shouchun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN15">
+			<Text>Linxiang </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN16">
+			<Text>Dìngtáo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN17">
+			<Text>Nanjun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN18">
+			<Text>Nanchang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN19">
+			<Text>Yángqǔ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN20">
+			<Text>Hefei</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN21">
+			<Text>Nánzhèng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN22">
+			<Text>Yè</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN23">
+			<Text>Didao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN24">
+			<Text>Panyu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN25">
+			<Text>Ānyì</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN26">
+			<Text>Bingzhou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN27">
+			<Text>Jiànyè</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN28">
+			<Text>Baqiu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN29">
+			<Text>Qūfù</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN30">
+			<Text>Dunhuang</Text>
+		</Row>
+		<!--Khmer-->
+		<Row Tag="LOC_CITY_NAME_KHMER1">
+			<Text>Yasodharapura</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER2">
+			<Text>Indrapura</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER3">
+			<Text>Mahendraparvata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER4">
+			<Text>Hariharalaya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER5">
+			<Text>Stung Treng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER6">
+			<Text>Isanapura</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER7">
+			<Text>Lingapura</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER8">
+			<Text>Jayendranagari</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER9">
+			<Text>Angkor Borei</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER10">
+			<Text>Phum Snay</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER11">
+			<Text>Ou Kaev</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER12">
+			<Text>Phimai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER13">
+			<Text>Sdok Kok Thom</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER14">
+			<Text>Beng Mealea</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER15">
+			<Text>Banteay Srei</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER16">
+			<Text>Banteay Chhmar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER17">
+			<Text>Preah Vihear</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER18">
+			<Text>Kompong Thom</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER19">
+			<Text>Longvek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER20">
+			<Text>Oudong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER21">
+			<Text>Kampot</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER22">
+			<Text>Phnom Penh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER23">
+			<Text>Battambang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER24">
+			<Text>Siem Reap</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER25">
+			<Text>Prey Veng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER26">
+			<Text>Kampong Cham</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER27">
+			<Text>Ta Khmau</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER28">
+			<Text>Pursat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER29">
+			<Text>Kamong Speu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHMER30">
+			<Text>Takeo</Text>
+		</Row>
+		<!--Maurya-->
+		<Row Tag="LOC_CITY_NAME_MAURYA1">
+			<Text>Pataliputra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA2">
+			<Text>Ujjayini</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA3">
+			<Text>Tosali</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA4">
+			<Text>Suvarnagiri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA5">
+			<Text>Taksasila</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA6">
+			<Text>Kausambi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA7">
+			<Text>Samapa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA8">
+			<Text>Risila</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA9">
+			<Text>Pudanagala</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA10">
+			<Text>Girinagara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA11">
+			<Text>Sopara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA12">
+			<Text>Kandahar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA13">
+			<Text>Kopbal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA14">
+			<Text>Virata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA15">
+			<Text>Brahmagiri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA16">
+			<Text>Vidisa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA17">
+			<Text>Varanasi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA18">
+			<Text>Kalsi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA19">
+			<Text>Rampurva</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA20">
+			<Text>Banavasi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA21">
+			<Text>Erragudi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA22">
+			<Text>Shahbazgarhi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA23">
+			<Text>Lauriya Araraj</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA24">
+			<Text>Sannathi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA25">
+			<Text>Topra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA26">
+			<Text>Lauriya Nandangarh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA27">
+			<Text>Mansehra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA28">
+			<Text>Sahasram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA29">
+			<Text>Rupnath</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAURYA30">
+			<Text>Bairat</Text>
+		</Row>
+		<!--Maya-->
+		<Row Tag="LOC_CITY_NAME_MAYA1">
+			<Text>Bàakʼ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA2">
+			<Text>Tikal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA3">
+			<Text>Chichen Itza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA4">
+			<Text>Wak Kab'nal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA5">
+			<Text>Uxmal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA6">
+			<Text>Copan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA7">
+			<Text>Coba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA8">
+			<Text>Kaan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA9">
+			<Text>Calakmul</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA10">
+			<Text>Xunantunich</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA11">
+			<Text>Yaxchilan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA12">
+			<Text>Yokib</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA13">
+			<Text>Quirigua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA14">
+			<Text>Uaxactun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA15">
+			<Text>Tonina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA16">
+			<Text>Kaminaljuyu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA17">
+			<Text>Ucanal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA18">
+			<Text>Izapa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA19">
+			<Text>Comalcalco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA20">
+			<Text>Lamanai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA21">
+			<Text>Dzibilchaltun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA22">
+			<Text>Edzna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA23">
+			<Text>Sacul</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA24">
+			<Text>Becan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA25">
+			<Text>Sayil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA26">
+			<Text>Mayapan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA27">
+			<Text>Bonampak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA28">
+			<Text>Kabah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA29">
+			<Text>Seibal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA30">
+			<Text>Izamal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA31">
+			<Text>Machaquila</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA32">
+			<Text>Xtampak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA33">
+			<Text>Chinkultic</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYA34">
+			<Text>Xpuhil</Text>
+		</Row>
+		<!--Mississippian-->
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN1">
+			<Text>Cahokia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN2">
+			<Text>Coosa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN3">
+			<Text>Chickasaw</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN4">
+			<Text>Alabama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN5">
+			<Text>Apalachee</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN6">
+			<Text>Choctaw</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN7">
+			<Text>Creek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN8">
+			<Text>Hitchiti</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN9">
+			<Text>Houma</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN10">
+			<Text>Kansa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN11">
+			<Text>Missouria</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN12">
+			<Text>Mobilian</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN13">
+			<Text>Natchez</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN14">
+			<Text>Osage</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN15">
+			<Text>Quapaw</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN16">
+			<Text>Tunica</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN17">
+			<Text>Yamasee</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN18">
+			<Text>Yuchi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN19">
+			<Text>Quizquiz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN20">
+			<Text>Chucalissa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN21">
+			<Text>Nodena</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN22">
+			<Text>Wapanocca</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN23">
+			<Text>Chauga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN24">
+			<Text>Coste</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN25">
+			<Text>Hatchie</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISSISSIPPIAN26">
+			<Text>Oconee</Text>
+		</Row>
+		<!--Persia-->
+		<Row Tag="LOC_CITY_NAME_PERSIA1">
+			<Text>Pārsa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA2">
+			<Text>Pāthra-gadā</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA3">
+			<Text>Hagmatana </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA4">
+			<Text>Çūšā</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA5">
+			<Text>Sparda </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA6">
+			<Text>Tarsus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA7">
+			<Text>Bactria </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA8">
+			<Text>Ragā</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA9">
+			<Text>Tushpa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA10">
+			<Text>Harrân</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA11">
+			<Text>Gordion </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA12">
+			<Text>Spahān</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA13">
+			<Text>Širājiš</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA14">
+			<Text>Qumis </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA15">
+			<Text>Dascylium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA16">
+			<Text>Mazaca</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA17">
+			<Text>Anshan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA18">
+			<Text>Marguš</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA19">
+			<Text>Istakhr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA20">
+			<Text>Borāzjān</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA21">
+			<Text>Pūrā</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA22">
+			<Text>Matezzish</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA23">
+			<Text>Arsada</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA24">
+			<Text>Karmana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA25">
+			<Text>Marakanda </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA26">
+			<Text>Ganzak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA27">
+			<Text>Haraiva</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA28">
+			<Text>Arrapha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA29">
+			<Text>Guzana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PERSIA30">
+			<Text>Kheir</Text>
+		</Row>
+		<!--Rome-->
+		<Row Tag="LOC_CITY_NAME_ROME1">
+			<Text>Roma</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME2">
+			<Text>Capua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME3">
+			<Text>Ostia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME4">
+			<Text>Ravenna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME5">
+			<Text>Neapolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME6">
+			<Text>Mediolanum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME7">
+			<Text>Patavium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME8">
+			<Text>Aquileia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME9">
+			<Text>Puteoli</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME10">
+			<Text>Pompeii</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME11">
+			<Text>Catana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME12">
+			<Text>Burdigala</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME13">
+			<Text>Narbo Martius</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME14">
+			<Text>Gades</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME15">
+			<Text>Lugdunum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME16">
+			<Text>Bononia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME17">
+			<Text>Corduba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME18">
+			<Text>Massilia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME19">
+			<Text>Colonia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME20">
+			<Text>Caesarea Maritima</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME21">
+			<Text>Mogontiacum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME22">
+			<Text>Londinium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME23">
+			<Text>Caesaraugusta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME24">
+			<Text>Sarmizegetusa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME25">
+			<Text>Hispalis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME26">
+			<Text>Iader</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME27">
+			<Text>Eboracum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME28">
+			<Text>Vindobona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME29">
+			<Text>Olisipo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME30">
+			<Text>Volubilis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME31">
+			<Text>Lutetia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME32">
+			<Text>Caralis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME33">
+			<Text>Salonae</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME34">
+			<Text>Aquincum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROME35">
+			<Text>Aventicum</Text>
+		</Row>
+	</EnglishText>
+</Database>

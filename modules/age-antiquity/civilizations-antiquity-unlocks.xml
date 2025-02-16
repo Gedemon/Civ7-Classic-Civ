@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_AKSUM"			Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_MISSISSIPPIAN"	Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_EGYPT"			Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GREECE"			Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HAN"				Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_KHMER"			Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_MAURYA"			Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_MAYA"				Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_PERSIA"			Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ROME"				Kind="KIND_UNLOCK"/>
+	</Types>
+	<!-- -->
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_AKSUM"			ConfigurationValue="CIVILIZATION_AKSUM"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MISSISSIPPIAN"	ConfigurationValue="CIVILIZATION_MISSISSIPPIAN"	/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EGYPT"			ConfigurationValue="CIVILIZATION_EGYPT"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GREECE"			ConfigurationValue="CIVILIZATION_GREECE"		/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HAN"			ConfigurationValue="CIVILIZATION_HAN"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_KHMER"			ConfigurationValue="CIVILIZATION_KHMER"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MAURYA"			ConfigurationValue="CIVILIZATION_MAURYA"		/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MAYA"			ConfigurationValue="CIVILIZATION_MAYA"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_PERSIA"			ConfigurationValue="CIVILIZATION_PERSIA"		/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ROME"			ConfigurationValue="CIVILIZATION_ROME"			/>
+	</UnlockConfigurationValues>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_AKSUM"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MISSISSIPPIAN"	/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EGYPT"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GREECE"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HAN"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_KHMER"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MAURYA"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MAYA"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_PERSIA"			/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ROME"			/>
+	</Unlocks>
+	<RequirementSets>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_AKSUM" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_EGYPT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_GREECE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_HAN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_KHMER" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_MAURYA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_MAYA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_MISSISSIPPIAN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_PERSIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_ROME" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_AKSUM" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_EGYPT" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_GREECE" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_HAN" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_KHMER" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_MAURYA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_MAYA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_MISSISSIPPIAN" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_PERSIA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_ROME" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_AKSUM" Name="CivilizationType" Value="CIVILIZATION_AKSUM"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_EGYPT" Name="CivilizationType" Value="CIVILIZATION_EGYPT"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_GREECE" Name="CivilizationType" Value="CIVILIZATION_GREECE"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_HAN" Name="CivilizationType" Value="CIVILIZATION_HAN"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_KHMER" Name="CivilizationType" Value="CIVILIZATION_KHMER"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_MAURYA" Name="CivilizationType" Value="CIVILIZATION_MAURYA"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_MAYA" Name="CivilizationType" Value="CIVILIZATION_MAYA"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_MISSISSIPPIAN" Name="CivilizationType" Value="CIVILIZATION_MISSISSIPPIAN"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_PERSIA" Name="CivilizationType" Value="CIVILIZATION_PERSIA"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_ROME" Name="CivilizationType" Value="CIVILIZATION_ROME"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_AKSUM" RequirementId="REQ_CIV_IS_AKSUM"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_EGYPT" RequirementId="REQ_CIV_IS_EGYPT"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_GREECE" RequirementId="REQ_CIV_IS_GREECE"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_HAN" RequirementId="REQ_CIV_IS_HAN"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_KHMER" RequirementId="REQ_CIV_IS_KHMER"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_MAURYA" RequirementId="REQ_CIV_IS_MAURYA"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_MAYA" RequirementId="REQ_CIV_IS_MAYA"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_MISSISSIPPIAN" RequirementId="REQ_CIV_IS_MISSISSIPPIAN"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_PERSIA" RequirementId="REQ_CIV_IS_PERSIA"/>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_ROME" RequirementId="REQ_CIV_IS_ROME"/>
+	</RequirementSetRequirements>
+	<!-- Play as same requirement -->
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_AKSUM" RequirementSetId="REQSET_CIV_IS_AKSUM" Description="LOC_UNLOCK_PLAY_AS_AKSUM_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_EGYPT" RequirementSetId="REQSET_CIV_IS_EGYPT" Description="LOC_UNLOCK_PLAY_AS_EGYPT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_GREECE" RequirementSetId="REQSET_CIV_IS_GREECE" Description="LOC_UNLOCK_PLAY_AS_GREECE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_HAN" RequirementSetId="REQSET_CIV_IS_HAN" Description="LOC_UNLOCK_PLAY_AS_HAN_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_KHMER" RequirementSetId="REQSET_CIV_IS_KHMER" Description="LOC_UNLOCK_PLAY_AS_KHMER_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_MAURYA" RequirementSetId="REQSET_CIV_IS_MAURYA" Description="LOC_UNLOCK_PLAY_AS_MAURYA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_MAYA" RequirementSetId="REQSET_CIV_IS_MAYA" Description="LOC_UNLOCK_PLAY_AS_MAYA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_MISSISSIPPIAN" RequirementSetId="REQSET_CIV_IS_MISSISSIPPIAN" Description="LOC_UNLOCK_PLAY_AS_MISSISSIPPIAN_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_PERSIA" RequirementSetId="REQSET_CIV_IS_PERSIA" Description="LOC_UNLOCK_PLAY_AS_PERSIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_ROME" RequirementSetId="REQSET_CIV_IS_ROME" Description="LOC_UNLOCK_PLAY_AS_ROME_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAME_TOOLTIP"/>
+	</UnlockRequirements>
+</Database>

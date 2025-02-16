@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_CLASSIC_CIV_NAME">
+			<Text>Classic Civ (alpha)</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_CLASSIC_CIV_DESCRIPTION">
+			<Text>A simple Classic Civ mod (W.I.P.)</Text>
+		</Row>
+	</EnglishText>
+</Database>
